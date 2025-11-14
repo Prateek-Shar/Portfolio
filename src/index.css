@@ -1,0 +1,438 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: "Poppins Medium";
+    src: url("/fonts/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Mogra";
+    src: url("/fonts/Mogra-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PoetsenOne";
+    src: url("/fonts/PoetsenOne-Regular.ttf") format("truetype");
+}
+
+
+@theme {
+    --font-Poet: PoetsenOne , sans-serif;
+    --font-Poppins : Poppins Medium;
+    --font-Mogra : Mogra;
+
+    --breakpoint-ml: 393px; /* Iphone */
+    --breakpoint-mm: 375px;
+
+    --text-headingColor: #0c1931;
+    --text-paraColor: #282c31
+}
+
+
+
+
+
+
+@keyframes explore {
+    0% {
+        transform: translateY(0px);
+    }
+
+    10% {
+        transform: translateY(1px);
+    }
+
+    20% {
+        transform: translateY(2px);
+    }
+
+    30% {
+        transform: translateY(3px);
+    }
+
+    40% {
+        transform: translateY(4px);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    60% {
+        transform: translateY(4px);
+    }
+
+    70% {
+        transform: translateY(3px);
+    }
+
+    80% {
+        transform: translateY(2px);
+    }
+
+    90% {
+        transform: translateY(1px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+@keyframes divUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+@keyframes underlineAnim {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+
+
+@keyframes telAnim {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    5% {
+        transform: rotateZ(1deg);
+    }
+
+    10% {
+        transform: rotateZ(2deg);
+    }
+
+    15% {
+        transform: rotateZ(3deg);
+    }
+
+    20% {
+        transform: rotateZ(4deg);
+    }
+
+    25% {
+        transform: rotateZ(5deg);
+    }
+
+    30% {
+        transform: rotateZ(4deg);
+    }
+
+    35% {
+        transform: rotateZ(3deg);
+    }
+
+    40% {
+        transform: rotateZ(2deg);
+    }
+
+    45% {
+       transform: rotateZ(1deg)
+    }
+
+    50% {
+        transform: rotateZ(0deg);
+    }
+
+    55% {
+        transform: rotateZ(-1deg);
+    }
+
+    60% {
+        transform: rotateZ(-2deg);
+    }
+
+    65% {
+        transform: rotateZ(-3deg);
+    }
+
+    70% {
+        transform: rotateZ(-4deg);
+    }
+
+    75% {
+        transform: rotateZ(-5deg);
+    }
+
+    80% {
+        transform: rotateZ(-4deg);
+    }
+
+    85% {
+        transform: rotateZ(-3deg);
+    }
+
+    90% {
+        transform: rotateZ(-2deg);
+    }
+
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+
+@keyframes expenseAnim {
+    0% {
+        transform: translateY(0px);
+    }
+
+    5%  {
+        transform: translateY(1px);
+    }
+
+    10% {
+        transform: translateY(2px);
+    }
+
+    15% {
+        transform: translateY(3px);
+    }
+
+    20% {
+        transform: translateY(4px);
+    }
+
+    25% {
+        transform: translateY(5px);
+    }
+
+    30% {
+        transform: translateY(4px);
+    }
+
+    35% {
+        transform: translateY(3px);
+    }
+
+    40% {
+        transform: translateY(2px);
+    }
+
+    45% {
+        transform: translateY(1px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    55% {
+        transform: translateY(1px);
+    }
+
+    60% {
+        transform: translateY(2px);
+    }
+
+    65% {
+        transform: translateY(3px);
+    }
+
+    70% {
+        transform: translateY(2px);
+    }
+
+    75% {
+        transform: translateY(1px);
+    }
+
+    80% {
+        transform: translateY(0px);
+    }
+
+    85% {
+        transform: translateY(1px);
+    }
+
+    90% {
+        transform: translateY(2px);
+    }
+
+    95% {
+        transform: translateY(1px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+@keyframes handAnim {
+    0% {
+        transform: rotateZ(1deg);
+    }
+
+    5% {
+        transform:rotateZ(2deg)
+    }
+
+    10% {
+        transform:rotateZ(3deg)
+    }
+
+    15% {
+        transform: rotateZ(4deg);
+    }
+
+    20% {
+        transform: rotateZ(5deg);
+    }
+
+    25% {
+        transform: rotateZ(6deg);
+    }
+
+    30% {
+        transform: rotateZ(7deg);
+    }
+
+    35% {
+        transform: rotateZ(8deg);
+    }
+
+    40% {
+        transform: rotateZ(9deg);
+    }
+
+    50% {
+        transform: rotateZ(10deg);
+    }
+
+    55% {
+        transform: rotateZ(9deg);
+    }
+
+    60% {
+        transform: rotateZ(8deg);
+    }
+
+    65% {
+        transform: rotateZ(7deg);
+    }
+
+    70% {
+        transform: rotateZ(6deg);
+    }
+
+    75% {
+        transform: rotateZ(5deg);
+    }
+    
+    80% {
+        transform: rotateZ(4deg);
+    }
+
+    85% {
+        transform: rotateZ(3deg);
+    }
+
+    90% {
+        transform: rotateZ(2deg);
+    }
+
+    95% {
+        transform: rotateZ(1deg);
+    }
+
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+
+
+@utility animate-div {
+    animation: divUp ease-in 1s forwards;
+}
+
+@utility animate-hand {
+    animation: handAnim 2s ease-in 1s infinite;
+}
+
+@utility animate-ph {
+    animation: telAnim 3s ease-in-out infinite;
+}
+
+@utility animate-expense {
+    animation: expenseAnim 3s ease-in-out infinite;
+}
+
+@utility animate-scale-div {
+    animation: scaleDivAnim 3s ease-in-out forwards;
+}
+
+@utility animate-explore {
+    animation: explore 3s ease-in-out infinite;
+}
+
+
+
+.animate-undeline {
+    animation: underlineAnim 1s linear forwards;
+}
+
+
+.contact-form-body {
+    background: linear-gradient(to right , #f8eeff , #f5f1ff , #edfaff );
+}
+
+.animated-text {
+    animation:  textGradient 5s infinite;
+}
+
+.animate-border-anim {
+    animation: animate_div_border 3s ease-in-out forwards;
+}
+
+
+.skill-bt-gradient {
+    background: linear-gradient(to right , #f0deff , #f2f4f8 , #eff2f7 , #eaeef3, #e1e6ee);
+}
+
+
+.animated-border {
+    animation: show 1s linear forwards;
+}
+
+.animated-gradient-bt {
+    background : linear-gradient(to right, #eff2f7 , #fefcfd, #f1f3f8 , #e3e7ef);   
+}
+
+.animated-gradient {
+    background : linear-gradient(to right, #ca4ff9, #f963d1, #ff9d9b, #ffcd71, #c5d798, #5ed3f0);
+    height: 3px;
+    border-radius: 8px;
+}
+
+
+
+.skill-gradient {
+    background:  linear-gradient(to right, #e4e8f0 , #e4e9f0 , #e4e9f0),
+}
+
+
+.button-gradient {
+    background: linear-gradient(to right , #f0deff , #eae4ff ,  #e3edff , #def3ff);
+}
+
+.text-shadow {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
