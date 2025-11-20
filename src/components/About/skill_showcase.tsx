@@ -120,12 +120,12 @@ const Skill_showcase = () => {
                     </div>
 
                     <div className="w-[20%] bg-[#e9ecef] rounded-[10px] flex mt-2 mb-2 shadow-2xs">
-                        <div className="w-[60%] flex justify-center items-center pt-2 pb-2">
-                            <p className="font-Poppins text-[#282c31]">Next JS</p>
+                        <div className="w-[80%] flex justify-center items-center pt-2 pb-2">
+                            <p className="font-Poppins text-[#282c31] xl:text-[16px]">Next JS</p>
                         </div>
 
-                        <div className="w-[40%] flex items-center justify-center">
-                            <img src={next} className="object-contain w-[45%]"/>
+                        <div className="w-[18%] flex items-center justify-center mr-2">
+                            <img src={next} className=""/>
                         </div>
                     </div>
 
@@ -238,7 +238,7 @@ const Skill_showcase = () => {
                 xl:hidden">
                     <div className="w-[30%] bg-[#e9ecef] rounded-[10px] flex">
                         <div className="w-[75%] flex justify-center items-center pt-2 pb-2">
-                            <p className="font-Poppins ml:text-[14px] mm:text-[14px] text-[#282c31]">Next JS</p>
+                            <p className="font-Poppins ml:text-[14px] mm:text-[14px] text-[#282c31] xl:text-[12px]">Next JS</p>
                         </div>
 
                         <div className="w-[20%] flex items-center justify-center">
@@ -248,7 +248,7 @@ const Skill_showcase = () => {
 
                     <div className="w-[30%] bg-[#e9ecef] rounded-[10px] flex">
                         <div className="w-[60%] flex justify-center items-center pt-2 pb-2">
-                            <p className="font-Poppins ml:text-[14px] mm:text-[14px] text-[#282c31]">Unity</p>
+                            <p className="font-Poppins ml:text-[14px] mm:text-[14px] text-[#282c31] xl:text-[18px]">Unity</p>
                         </div>
 
                         <div className="w-[40%] flex items-center justify-center">
