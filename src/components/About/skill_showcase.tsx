@@ -11,6 +11,8 @@ import clock from "../../Images/clock.png"
 import smile from "../../Images/smile.png"
 import tea from "../../Images/tea.png"
 import next from "../../Images/next.png"
+import unity from "../../Images/unity.png";
+
 
 const Skill_showcase = () => {
     
@@ -96,8 +98,8 @@ const Skill_showcase = () => {
 
                 </div>
 
-                <div className="w-[40%] flex justify-evenly mt-2 xl:flex ml:hidden mm:hidden">
-                    <div className="w-[25%] bg-[#e9ecef] rounded-[10px] flex mt-2 mb-2 shadow-2xs">
+                <div className="w-[50%] flex justify-evenly mt-2 xl:flex ml:hidden mm:hidden">
+                    <div className="w-[22%] bg-[#e9ecef] rounded-[10px] flex mt-2 mb-2 shadow-2xs">
                         <div className="w-[80%] flex justify-center items-center pt-2 pb-2">
                             <p className="font-Poppins text-[#282c31]">MongoDB</p>
                         </div>
@@ -113,17 +115,27 @@ const Skill_showcase = () => {
                         </div>
 
                         <div className="w-[40%] flex items-center justify-center">
-                            <img src={CSharp} className="object-contain w-[70%]"/>
+                            <img src={CSharp} className="object-contain w-[60%]"/>
                         </div>
                     </div>
 
-                    <div className="w-[25%] bg-[#e9ecef] rounded-[10px] flex mt-2 mb-2 shadow-2xs">
+                    <div className="w-[20%] bg-[#e9ecef] rounded-[10px] flex mt-2 mb-2 shadow-2xs">
                         <div className="w-[60%] flex justify-center items-center pt-2 pb-2">
                             <p className="font-Poppins text-[#282c31]">Next JS</p>
                         </div>
 
                         <div className="w-[40%] flex items-center justify-center">
-                            <img src={next} className="object-contain w-[50%]"/>
+                            <img src={next} className="object-contain w-[45%]"/>
+                        </div>
+                    </div>
+
+                    <div className="w-[18%] bg-[#e9ecef] rounded-[10px] flex mt-2 mb-2">
+                        <div className="w-[65%] flex justify-center items-center py-2">
+                            <p className="font-Poppins ml:text-[14px] mm:text-[14px] text-[#282c31] xl:text-[16px]">Unity</p>
+                        </div>
+
+                        <div className="w-[35%] flex items-center justify-center">
+                            <img src={unity} className=""/>
                         </div>
                     </div>  
                 </div>
@@ -224,7 +236,7 @@ const Skill_showcase = () => {
 
                 <div className="w-full ml:flex ml:justify-evenly mm:flex mm:justify-evenly
                 xl:hidden">
-                    <div className="w-[30%] bg-[#e9ecef] rounded-[10px] flex mt-2 mb-2">
+                    <div className="w-[30%] bg-[#e9ecef] rounded-[10px] flex">
                         <div className="w-[75%] flex justify-center items-center pt-2 pb-2">
                             <p className="font-Poppins ml:text-[14px] mm:text-[14px] text-[#282c31]">Next JS</p>
                         </div>
@@ -233,12 +245,22 @@ const Skill_showcase = () => {
                             <img src={next} className="object-contain w-[80%]"/>
                         </div>
                     </div>
+
+                    <div className="w-[30%] bg-[#e9ecef] rounded-[10px] flex">
+                        <div className="w-[60%] flex justify-center items-center pt-2 pb-2">
+                            <p className="font-Poppins ml:text-[14px] mm:text-[14px] text-[#282c31]">Unity</p>
+                        </div>
+
+                        <div className="w-[40%] flex items-center justify-center">
+                            <img src={unity} className="object-contain w-[80%]"/>
+                        </div>
+                    </div>
                 </div>
 
             </div>
 
 
-            <div className="w-full flex justify-center mb-6">
+            <div className="w-full flex justify-center mb-6 mt-5">
                 <div className="xl:w-[90%] xl:flex xl:flex-row
                 ml:flex justify-evenly mt-5 ml:flex-col ml:items-center mm:flex mm:items-center mm:flex-col">
 

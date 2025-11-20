@@ -6,6 +6,7 @@ import { useRef } from "react"
 import herbal from "../../Images/tea-banner.png"
 import arr_down from "../../Images/arr_down.png";
 
+
 const Banner = () => {
 
 
@@ -109,5 +110,8 @@ const Banner = () => {
 
     )
 }
+
+
+
 
 export default Banner;
