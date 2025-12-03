@@ -1,5 +1,5 @@
 import { useState } from "react";
-import expense_tracker from "../../Images/expense_tracker_cover.png"
+import next from "../../Images/next.png";
 import react from "../../Images/react.png"
 import typescript from "../../Images/typescript.png"
 import exp from "../../Images/express.png";
@@ -12,10 +12,11 @@ import dashboard from "../../Images/dashboard_cover.jpg"
 import game from "../../Images/game.png";
 import CSharp from "../../Images/CSharp.png";
 import Unity from "../../Images/unity.png"
-import expense from "../../Images/expense.png";
 import dashboard_icon from "../../Images/dashboard.png"
 import space_game_icon from "../../Images/space_game.png";
 import demo from "../../Images/demo.png";
+import recipe from "../../Images/recipe_bg.png";
+import recipe_icon from "../../Images/recipe_icon.png";
 
 
 const Project_box = () => {
@@ -24,8 +25,8 @@ const Project_box = () => {
         window.open("https://insightboard.vercel.app/" , "_blank")
     }
 
-    const Navigate_Expense_Tracker_Demo = () => {
-        window.open("https://clearspend.vercel.app/" , "_blank")
+    const Navigate_Recipe_Tales_Demo = () => {
+        window.open("https://recipe-tales.vercel.app/" , "_blank")
     }
 
     const Navigate_Space_project = () => {
@@ -99,148 +100,8 @@ const Project_box = () => {
     return (
 
         <div className="2xl:w-[80%] xl:w-[80%] xl:flex xl:flex-row xl:justify-between ml:flex-col ml:w-full ml:items-center ml:justify-center ml:flex mm:w-full mm:flex mm:flex-col mm:justify-center mm:items-center">
-
-            <div className=" bg-[#e0e4eb] relative xl:w-[28%] shadow-md rounded-3xl mt-4 mb-4 ml:w-[85%] mm:w-[85%] 2xl:mt-10 hover:shadow-md hover:shadow-gray-500" onMouseEnter={handleClickToAnimateBox1} onMouseLeave={disableAnimateBox1}>
-
-                {expenseIcon && (
-                    <div className="w-[7%] absolute right-3 top-3 animate-expense">
-                        <img src={expense} />
-                    </div>
-                )}
-
-                <div className="w-[11%] absolute top-3 2xl:-translate-x-6 mm:-translate-x-4">
-                    <p className="2xl:text-5xl font-extrabold text-[#0c1931] mm:text-3xl">01</p>
-                </div>
-
-                <div className="w-full mb-2 flex justify-center items-center">
-                    <img src={expense_tracker}  className="object-contain w-[70%]"/>
-                </div>
-
-                <div className="w-full xl:mt-8 2xl:mt-5">
-                    <div className="w-[50%] ml:w-[80%] mm:w-[90%]">
-                        <p className="pl-2 font-Poppins font-bold text-[#0c1931]">Expense Tracker! 🛒✨</p>
-                    </div>
-                </div>
-
-                <div className="w-full mm:mt-2">
-                    <div className="w-full">
-                        <p className="font-Poppins pl-2  pr-4 pt-4 text-[#282c31]">Built a personal finance tracker that helps users easily manage their income and expenses.<br/></p>
-
-                        {moreBt1 && (
-                            <span onClick={extendPara1} className="hover:cursor-pointer font-Poppins pl-2 text-[#343a40]">More....</span>
-                        )} 
-                        
-                        {projectPara1 && (
-                            <p className="font-Poppins pl-2 pr-4 text-[#282c31] mt-2">It includes interactive charts for visualizing spending by category, lets you switch between income and expense views, and updates everything in real-time. The app is designed to be responsive, clean, and simple to use on any device. You can also filter transactions by month or year to keep track of your financial habits over time.🎉</p>
-                        )}
-                    </div>
-                </div>
-
-                <div className="w-full flex-col">
-                    <div className="w-full flex justify-evenly mt-8">
-
-                        <div className="w-[20%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 p-1 rounded-4xl">
-                            <div className="w-[80%] flex justify-center items-center">
-                                <p className="font-Poppins xl:text-[13px] ml:text-[10px] mm:text-[10px] 2xl:text-[15px]">React</p>
-                            </div>
-
-                            <div className="w-[20%] flex justify-center items-center">
-                                <img src={react} />
-                            </div>
-                        </div>
-
-                        <div className="w-[30%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 p-1 rounded-4xl">
-                            <div className="w-[80%] flex justify-center items-center">
-                                <p className="font-Poppins xl:text-[12px] ml:text-[10px] mm:text-[10px] 2xl:text-[14px]">TypeScript</p>
-                            </div>
-
-                            <div className="w-[20%] flex justify-center items-center">
-                                <img src={typescript} className="p-1"/>
-                            </div>
-                        </div>
-
-                        <div className="w-[25%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 p-1 rounded-4xl">
-                            <div className="w-[80%] flex justify-center items-center">
-                                <p className="font-Poppins xl:text-[13px] ml:text-[10px] mm:text-[10px] 2xl:text-[15px]">Express</p>
-                            </div>
-
-                            <div className="w-[20%] flex justify-center items-center">
-                                <img src={exp} />
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div className="w-full">
-                        <div className="w-full flex justify-evenly">
-                            
-                            <div className="w-[25%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 p-1 rounded-4xl">
-                                <div className="w-[80%] flex justify-center items-center">
-                                    <p className="font-Poppins xl:text-[12px] ml:text-[10px] mm:text-[10px] 2xl:text-[14px]">Node JS</p>
-                                </div>
-
-                                <div className="w-[20%] flex justify-center items-center">
-                                    <img src={node} />
-                                </div>
-                            </div>
-
-                            <div className="w-[25%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 p-1 rounded-4xl">
-                                <div className="w-[80%] flex justify-center items-center">
-                                    <p className="font-Poppins xl:text-[12px] ml:text-[10px] mm:text-[10px] 2xl:text-[13px]">MongoDB</p>
-                                </div>
-
-                                <div className="w-[20%] flex justify-center items-center">
-                                    <img src={mongo} />
-                                </div>
-                            </div>
-
-                            <div className="w-[35%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 p-1 rounded-4xl">
-                                <div className="w-[80%] flex justify-center items-center">
-                                    <p className="font-Poppins xl:text-[12px] ml:text-[10px] mm:text-[10px] 2xl:text-[14px]">Tailwind Css</p>
-                                </div>
-
-                                <div className="w-[20%] flex justify-center items-center">
-                                    <img src={tailwind} className="p-1"/>
-                                </div>
-                            </div>
-                
-
-                        </div>
-                    </div>
-                </div>
-
-                <div className="w-full flex justify-center 2xl:mt-20 xl:mt-13 ml:mt-5 mm:mt-5">
-
-                    <div className="xl:w-[50%] border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl rounded-[10px] flex ml:w-[50%] mm:w-[55%] ml:mb-2 ml:mt-2 mm:mt-2 mm:mb-2 hover:cursor-pointer" onClick={Navigate_Expense_Tracker_Demo}>
-                        <div className="w-[20%]">
-                            <img src={demo} className="p-1.5" />
-                        </div>
-
-                        <div className="w-[75%] flex justify-center items-center">
-                            <p className="font-Poppins xl:text-[12px] ml:text-[12px] mm:text-[13px] 2xl:text-[16px]">Live Demo</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div className="w-full flex justify-center items-center mt-2 mb-2">
-
-                    <div className="w-[50%] flex xl:ml-20 mm:w-[60%] mm:ml-8 ml:ml-12">
-                        <div className="w-[2.5%] flex justify-center items-center animate-pulse">
-                            <div className="w-full h-[6px] bg-red-600 rounded-full" />
-                        </div>
-
-                        <div className="w-[90%] flex items-center pl-2">
-                            <p className="text-[12px] font-Poppins">Please Open on Laptop</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            {/* Project 2 */}
+            
+            {/* Project 1 */}
             <div className="xl:w-[28%] shadow-md rounded-3xl bg-[#e0e4eb] mt-4 mb-4 ml:w-[85%] mm:w-[85%] 2xl:mt-10 relative hover:shadow-md hover:shadow-gray-500" onMouseEnter={handleClickToAnimateBox2} onMouseLeave={disableAnimateBox2}>
                 
                 {dashboardIcon && (
@@ -250,32 +111,29 @@ const Project_box = () => {
                 )}
 
                 <div className="w-[11%] absolute top-3 2xl:-translate-x-6 mm:-translate-x-4">
-                    <p className="2xl:text-5xl font-extrabold text-[#0c1931] mm:text-3xl">02</p>
+                    <p className="2xl:text-5xl font-extrabold text-[#0c1931] mm:text-3xl">01</p>
                 </div>
 
-                <div className="w-full flex justify-center items-center mt-20 mb-10">
-                    <img src={dashboard}  className="object-contain w-[50%]"/>
+                <div className="w-full flex justify-center items-center mt-20">
+                    <img src={dashboard}  className=" object-contain w-[52%] rounded-[5px]"/>
                 </div>
 
-                <div className="w-full mt-4">
-                    <div className="w-[50%]">
-                        <p className="pl-2 pt-2 pb-2 font-Poppins font-bold text-[#0c1931]">Dashboard ✨</p>
-                    </div>
+                <div className="w-full mt-10">
+                    <p className="pl-2 pt-2 pb-2 font-Poppins font-bold text-[#0c1931]">Insight Board ✨</p>
                 </div>
 
                 <div className="w-full">
                     <div className="w-full">
-                        <p className="font-Poppins pl-2 pr-4 pt-4 text-[#282c31]">Designed and built a modern financial dashboard to track and visualize key income data.<br/></p>
+                        <p className="font-Poppins pl-2 pr-4 pt-4 text-[#282c31]">Designed and built a modern financial dashboard to track and visualize key income , customer and products data.<br/></p>
                         
                         {moreBt2 && (
                         <span className="text-[#343a40] hover:cursor-pointer font-Poppins pl-2" onClick={extendPara2}>More...</span>
                         )}
                         
                         {projectPara2 && (
-                        <p className="font-Poppins pl-2 pr-4 mt-2 text-[#282c31]">It features clean UI components with real-time updates and smooth interactivity.
+                        <p className="font-Poppins pl-2 pr-4 mt-2 text-[#282c31]">
                         Users can toggle between daily, monthly, and yearly views effortlessly.
-                        Visual insights are presented through dynamic charts and categorized summaries.
-                        The dashboard is fully responsive, making it easy to use across all devices.🎉</p>
+                        Visual insights are presented through dynamic charts 🎉</p>
                         )}
                     </div>
                 </div>
@@ -382,6 +240,85 @@ const Project_box = () => {
             </div>
 
 
+            {/* Project 2 */}
+            <div className=" bg-[#e0e4eb] relative xl:w-[28%] shadow-md rounded-3xl mt-4 mb-4 ml:w-[85%] mm:w-[85%] 2xl:mt-10 hover:shadow-md hover:shadow-gray-500" onMouseEnter={handleClickToAnimateBox1} onMouseLeave={disableAnimateBox1}>
+
+                {expenseIcon && (
+                    <div className="w-[7%] absolute right-3 top-3 animate-expense">
+                        <img src={recipe_icon} />
+                    </div>
+                )}
+
+                <div className="w-[11%] absolute top-3 2xl:-translate-x-6 mm:-translate-x-4">
+                    <p className="2xl:text-5xl font-extrabold text-[#0c1931] mm:text-3xl">02</p>
+                </div>
+
+                <div className="w-full mb-15 flex justify-center items-center mt-22">
+                    <img src={recipe}  className=" object-contain w-[90%] rounded-[5px]"/>
+                </div>
+
+                <div className="w-full xl:mt-8 2xl:mt-5">
+                    <p className="pl-2 font-Poppins font-bold text-[#0c1931]">Recipe Tales! ✨</p>
+                </div>
+
+                <div className="w-full mm:mt-2">
+                    <div className="w-full">
+                        <p className="font-Poppins pl-2  pr-4 pt-4 text-[#282c31]">A recipe website that allows users to browse and explore different dishes.<br/></p>
+
+                        {moreBt1 && (
+                            <span onClick={extendPara1} className="hover:cursor-pointer font-Poppins pl-2 text-[#343a40]">More....</span>
+                        )} 
+                        
+                        {projectPara1 && (
+                            <p className="font-Poppins pl-2 pr-4 text-[#282c31] mt-2"> Each recipe includes basic details like ingredients and step-by-step instructions. The focus of the project is on an easy-to-use layout, smooth navigation, and a pleasant browsing experience.</p>
+                        )}
+                    </div>
+                </div>
+
+
+                <div className="w-full flex justify-center items-center mt-15">
+                    <div className="w-[30%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs ">
+                        <div className="w-[75%] flex justify-center items-center pt-2 pb-2">
+                            <p className="font-Poppins ml:text-[14px] mm:text-[14px] text-[#282c31] xl:text-[15px]">Next JS</p>
+                        </div>
+
+                        <div className="w-[20%] flex items-center justify-center">
+                            <img src={next} className="object-contain w-[80%]"/>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div className="w-full flex justify-center xl:mt-10 ml:mt-5 mm:mt-5">
+                    <div className="xl:w-[50%] border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl rounded-[10px] flex ml:w-[50%] mm:w-[55%] ml:mb-2 ml:mt-2 mm:mt-2 mm:mb-2 hover:cursor-pointer" onClick={Navigate_Recipe_Tales_Demo}>
+                        <div className="w-[20%]">
+                            <img src={demo} className="p-1.5" />
+                        </div>
+
+                        <div className="w-[75%] flex justify-center items-center">
+                            <p className="font-Poppins xl:text-[12px] ml:text-[12px] mm:text-[13px] 2xl:text-[16px]">Live Demo</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="w-full flex justify-center items-center my-2">
+                    <div className="w-[50%] flex xl:ml-20 mm:w-[60%] mm:ml-8 ml:ml-12">
+                        <div className="w-[2.5%] flex justify-center items-center animate-pulse">
+                            <div className="w-full h-[6px] bg-red-600 rounded-full" />
+                        </div>
+
+                        <div className="w-[90%] flex items-center pl-2">
+                            <p className="text-[12px] font-Poppins">Please Open on Laptop</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
 
             {/* Project 3 */}
             <div className="xl:w-[28%] bg-[#e0e4eb] shadow-md rounded-3xl mt-4 mb-4 ml:w-[85%] mm:w-[85%] 2xl:mt-10 relative hover:shadow-md hover:shadow-gray-500" onMouseEnter={handleClickToAnimateBox3} onMouseLeave={disableAnimateBox3}>
@@ -396,14 +333,12 @@ const Project_box = () => {
                     <p className="2xl:text-5xl font-extrabold text-[#0c1931] mm:text-3xl">03</p>
                 </div>
                 
-                <div className="w-full flex justify-center items-center mt-16 mb-6">
-                    <img src={game} className="object-contain w-[55%] mt-6 mb-6"/>
+                <div className="w-full flex justify-center items-center mt-20">
+                    <img src={game} className="object-contain w-[80%] rounded-[5px]"/>
                 </div>
 
-                <div className="w-full">
-                    <div className="w-[50%]">
-                        <p className="pl-2 pt-2 pb-2 font-Poppins font-bold text-[#0c1931]"> 2D Game ✨</p>
-                    </div>
+                <div className="w-full mt-12">
+                    <p className="pl-2 py-2 font-Poppins font-bold text-[#0c1931]"> Space Shooter ✨</p>
                 </div>
 
                 <div className="w-full">
@@ -450,7 +385,7 @@ const Project_box = () => {
                     </div>
                 </div>
 
-                <div className="w-full flex justify-center xl:mt-10  ml:mt-5 mm:mt-5 2xl:mt-14" >
+                <div className="w-full flex justify-center ml:mt-5 mm:mt-5" >
                     <div className="w-[40%] border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl  rounded-[10px] flex ml:w-[50%] ml:mt-2 ml:mb-2 mm:mt-2 mm:mb-2 2xl:mt-10 hover:cursor-pointer" onClick={Navigate_Space_project}>
                         <div className="w-[20%]">
                             <img src={github} className="p-2" />
@@ -462,6 +397,18 @@ const Project_box = () => {
 
                         <div className="w-[20%]">
                             <img src={eyes} />
+                        </div>
+                    </div>
+                </div>
+
+                <div className="w-full flex justify-center items-center my-2">
+                    <div className="xl:w-[40%] mm:w-[60%] flex mm:ml-8 ml:ml-12 xl:ml-14">
+                        <div className="w-[3%] flex justify-center items-center animate-pulse">
+                            <div className="w-full h-[5px] bg-red-600 rounded-full" />
+                        </div>
+
+                        <div className="w-[90%] flex items-center pl-2">
+                            <p className="text-[12px] font-Poppins">Not Executable</p>
                         </div>
                     </div>
                 </div>
