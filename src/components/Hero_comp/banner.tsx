@@ -31,8 +31,12 @@ const Banner = () => {
                         <img src={herbal} />
                     </div>
 
-                    <div className="w-[90%] p-1">
+                    {/* <div className="w-[90%] p-1">
                         <p className="font-Poet text-[#737396] text-[15px] mm:text-[12px]">~ Currently Thinking Ideas ~</p>
+                    </div> */}
+
+                    <div className="w-[90%] p-1">
+                        <p className="font-Poet text-[#737396] text-[15px] mm:text-[12px]">~ Working On Something ~</p>
                     </div>
                 </div>
             </div>
