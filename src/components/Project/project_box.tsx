@@ -205,7 +205,6 @@ const Project_box = () => {
                                     <img src={tailwind} className="p-1"/>
                                 </div>
                             </div>
-                
 
                         </div>
                     </div>
@@ -402,7 +401,7 @@ const Project_box = () => {
                 </div>
 
                 <div className="w-full flex justify-center items-center my-2">
-                    <div className="xl:w-[40%] mm:w-[60%] flex mm:ml-8 ml:ml-12 xl:ml-14">
+                    <div className="xl:w-[40%] mm:w-[60%] flex mm:ml-20 ml:ml-28 xl:ml-14">
                         <div className="w-[3%] flex justify-center items-center animate-pulse">
                             <div className="w-full h-[5px] bg-red-600 rounded-full" />
                         </div>
