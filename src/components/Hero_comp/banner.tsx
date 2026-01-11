@@ -80,10 +80,10 @@ const Banner = () => {
             </div>
 
             <div className="xl:w-[36%] xl:flex xl:flex-row-reverse xl:justify-normal mt-22 xl:mt-20 ml:w-[50%] ml:hidden ml:justify-center ml:items-center mm:w-[60%] mm:flex mm:justify-center mm:mt-15">
-                <div className="xl:w-[30%] relative hover:cursor-pointer ml:w-[65%] mm:w-[65%]">
+                <div className="xl:w-[30%] relative ml:w-[65%] mm:w-[65%]">
                     <div className="bg-blue-500 m-2 mm:p-3.5 xl:p-5.5"/>
                     <div className="w-[90%] p-2 xl:p-2 mm:p-1 bg-white absolute top-0 left-1 border-2 border-blue-500 flex justify-center hover:bg-blue-200">
-                        <button className="font-Poet text-[#2c2626] mm:text-[15px] xl:text-[18px] cursor-pointer">Testimonials</button>
+                        <p className="font-Poet text-[#2c2626] mm:text-[15px] xl:text-[18px] hover:cursor-default">Testimonials</p>
                     </div>
                 </div>
             </div>

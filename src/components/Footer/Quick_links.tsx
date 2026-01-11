@@ -51,7 +51,7 @@ const Quick_links:React.FC<Switch> = ({SwitchToAbout , SwitchToContact , SwitchT
 
                 <div className="w-full mt-2 xl:mt-4">
                     <div className="xl:w-[20%] hover:cursor-pointer xl:ml-0 mm:ml-1 mm:mt-2">
-                        <p className="font-Poppins text-gray-500 p-0.5 ml-1 mm:pl-1.5 hover:text-white" onMouseEnter={enableUnderline} onMouseLeave={disableUnderline} onClick={SwitchToAbout}>About</p> 
+                        <button className="font-Poppins text-gray-500 xl:ml-[5px] mm:pl-1.5 hover:text-white" onMouseEnter={enableUnderline} onMouseLeave={disableUnderline} onClick={SwitchToAbout}>About</button> 
 
                         {loadUnderlineOne && (
                             <div className="w-full animate-undeline">
@@ -61,7 +61,7 @@ const Quick_links:React.FC<Switch> = ({SwitchToAbout , SwitchToContact , SwitchT
                     </div>
 
                     <div className="xl:w-[20%] hover:cursor-pointer xl:mt-2 mm:ml-1 mm:mt-2">
-                        <p className="font-Poppins text-gray-500 p-0.5 ml-1 hover:text-white" onMouseEnter={enableUnderlineTwo} onTouchMove={enableUnderline} onMouseLeave={disableUnderlineTwo} onClick={SwitchToContact}>Contact</p>
+                        <button className="font-Poppins text-gray-500 mm:pl-1.5 hover:text-white" onMouseEnter={enableUnderlineTwo} onTouchMove={enableUnderline} onMouseLeave={disableUnderlineTwo} onClick={SwitchToContact}>Contact</button>
 
                         {loadUnderlineTwo && (
                             <div className="w-full animate-undeline">
@@ -71,7 +71,7 @@ const Quick_links:React.FC<Switch> = ({SwitchToAbout , SwitchToContact , SwitchT
                     </div>
 
                     <div className="xl:w-[20%] hover:cursor-pointer xl:mt-2 mm:ml-1 mm:mt-2">
-                        <p className="font-Poppins text-gray-500 p-0.5 ml-1 hover:text-white" onMouseEnter={enableUnderlineThree} onMouseLeave={disableUnderlineThree} onClick={SwitchToProject}>Projects</p>
+                        <button className="font-Poppins text-gray-500 xl:ml-[1px] mm:pl-1.5 hover:text-white" onMouseEnter={enableUnderlineThree} onMouseLeave={disableUnderlineThree} onClick={SwitchToProject}>Projects</button>
 
                         {loadUnderlineThree && (
                             <div className="w-full animate-undeline rounded-full">

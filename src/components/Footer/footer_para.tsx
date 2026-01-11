@@ -9,7 +9,7 @@ const Footer_para:React.FC<link_func> = ({SwitchToHome}) => {
 
         <div className="w-full">
             <div className="w-full hover:cursor-pointer" onClick={SwitchToHome}>
-                <h1 className="font-Poet text-[#d9d9d9] text-2xl p-2 mm:p-1 mm:pl-2">Portflio</h1>
+                <button><h1 className="font-Poet text-[#d9d9d9] text-2xl p-2 mm:p-1 mm:pl-2">Portflio</h1></button>
             </div>
 
             <div className="w-full mt-7 mb-2 mm:mt-4">

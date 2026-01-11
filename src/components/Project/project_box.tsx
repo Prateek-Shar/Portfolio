@@ -212,7 +212,7 @@ const Project_box = () => {
 
                 <div className="w-full flex justify-evenly xl:mt-13 ml:mt-5 mm:mt-5">
 
-                    <div className="xl:w-[50%] border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl rounded-[10px] flex ml:w-[50%] mm:w-[55%] ml:mb-2 ml:mt-2 mm:mt-2 mm:mb-2 hover:cursor-pointer" onClick={Navigate_Dashboard_Demo}>
+                    <button className="xl:w-[50%] border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl rounded-[10px] flex ml:w-[50%] mm:w-[55%] ml:mb-2 ml:mt-2 mm:mt-2 mm:mb-2 hover:cursor-pointer" onClick={Navigate_Dashboard_Demo}>
                         <div className="w-[20%]">
                             <img src={demo} className="p-1.5" />
                         </div>
@@ -220,7 +220,7 @@ const Project_box = () => {
                         <div className="w-[75%] flex justify-center items-center">
                             <p className="font-Poppins xl:text-[12px] ml:text-[12px] mm:text-[12px] 2xl:text-[16px]">Live Demo</p>
                         </div>
-                    </div>
+                    </button>
 
                 </div>
 
@@ -290,7 +290,7 @@ const Project_box = () => {
 
 
                 <div className="w-full flex justify-center xl:mt-10 ml:mt-5 mm:mt-5">
-                    <div className="xl:w-[50%] border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl rounded-[10px] flex ml:w-[50%] mm:w-[55%] ml:mb-2 ml:mt-2 mm:mt-2 mm:mb-2 hover:cursor-pointer" onClick={Navigate_Recipe_Tales_Demo}>
+                    <button className="xl:w-[50%] border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl rounded-[10px] flex ml:w-[50%] mm:w-[55%] ml:mb-2 ml:mt-2 mm:mt-2 mm:mb-2 hover:cursor-pointer" onClick={Navigate_Recipe_Tales_Demo}>
                         <div className="w-[20%]">
                             <img src={demo} className="p-1.5" />
                         </div>
@@ -298,7 +298,7 @@ const Project_box = () => {
                         <div className="w-[75%] flex justify-center items-center">
                             <p className="font-Poppins xl:text-[12px] ml:text-[12px] mm:text-[13px] 2xl:text-[16px]">Live Demo</p>
                         </div>
-                    </div>
+                    </button>
                 </div>
 
 
@@ -385,7 +385,7 @@ const Project_box = () => {
                 </div>
 
                 <div className="w-full flex justify-center ml:mt-5 mm:mt-5" >
-                    <div className="w-[40%] border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl  rounded-[10px] flex ml:w-[50%] ml:mt-2 ml:mb-2 mm:mt-2 mm:mb-2 2xl:mt-10 hover:cursor-pointer" onClick={Navigate_Space_project}>
+                    <button className="w-[40%] border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl  rounded-[10px] flex ml:w-[50%] ml:mt-2 ml:mb-2 mm:mt-2 mm:mb-2 2xl:mt-10 hover:cursor-pointer" onClick={Navigate_Space_project}>
                         <div className="w-[20%]">
                             <img src={github} className="p-2" />
                         </div>
@@ -397,7 +397,7 @@ const Project_box = () => {
                         <div className="w-[20%]">
                             <img src={eyes} />
                         </div>
-                    </div>
+                    </button>
                 </div>
 
                 <div className="w-full flex justify-center items-center my-2">

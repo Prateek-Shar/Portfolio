@@ -26,17 +26,17 @@ const Social_links = () => {
             </div>
 
             <div className="w-[50%] flex justify-evenly items-center mt-2">
-                <div className="w-[30%] p-1 hover:cursor-pointer" onClick={handleToGithub}>
+                <button className="w-[30%] p-1 hover:cursor-pointer" onClick={handleToGithub}>
                     <img src={git} />
-                </div>
+                </button>
 
-                <div className="w-[30%] p-2 hover:cursor-pointer" onClick={handleToLinkedin}>
+                <button className="w-[30%] p-2 hover:cursor-pointer" onClick={handleToLinkedin}>
                     <img src={link} />
-                </div>
+                </button>
 
-                <div className="w-[30%] p-2 hover:cursor-pointer" onClick={handleToTwitter}>
+                <button className="w-[30%] p-2 hover:cursor-pointer" onClick={handleToTwitter}>
                     <img src={twitter} />
-                </div>
+                </button>
             </div>
 
             <div className="w-full p-2 ml-1">
