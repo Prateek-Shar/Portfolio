@@ -94,9 +94,9 @@ const Banner = () => {
             </div>
 
 
-            <div className="w-full ml:hidden xl:flex xl:mt-47 mm:hidden" />
+            <div className="w-full ml:hidden xl:flex xl:mt-40 mm:hidden" />
 
-            <div className="xl:w-[41%] xl:mt-2 items-center flex-row-reverse xl:justify-normal ml:animate-explore mm:max-ll::animate-bounce ml:flex xl:flex xl:mb-5 ml:w-[65%] ml:justify-center ml:items-center ml:mt-15 ml:mb-5 mm:w-[80%] mm:flex mm:justify-center mm:mt-5 mm:mb-2 ml:ml-4">
+            <div className="xl:w-[41%] xl:mt-2 xl:ml-6 items-center flex-row-reverse xl:justify-normal ml:animate-explore mm:max-ll::animate-bounce ml:flex xl:flex xl:mb-5 ml:w-[65%] ml:justify-center ml:items-center ml:mt-15 ml:mb-5 mm:w-[80%] mm:flex mm:justify-center mm:mt-5 mm:mb-2 ml:ml-4">
                 <div className="xl:w-[40%] flex ml:w-[70%] mm:w-[70%]">
                     <div className="p-2 flex items-center mm:pl-0">
                         <p className="font-Poet text-[#737373] text-[13px] mm:text-[12px]">Scroll For More Content</p>
