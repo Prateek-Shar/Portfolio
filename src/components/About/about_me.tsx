@@ -1,5 +1,5 @@
-import cool from "../../Images/cool.png"
-import hi from "../../Images/human_hi.png"
+import cool from "/Images/cool.png"
+import hi from "/Images/human_hi.png"
 
 const About = () => {
     

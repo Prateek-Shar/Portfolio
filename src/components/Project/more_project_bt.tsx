@@ -1,5 +1,5 @@
-import love from "../../Images/love.png"
-import wand from "../../Images/magic_wand.png";
+import love from "/Images/love.png"
+import wand from "/Images/magic_wand.png";
 
 
 const More_project_bt = () => {

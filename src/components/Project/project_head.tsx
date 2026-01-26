@@ -1,5 +1,5 @@
-import playground from "../../Images/playground.png"
-import gamepad from "../../Images/gamepad.png"
+import playground from "/Images/playground.png"
+import gamepad from "/Images/gamepad.png"
 
 const Project_head = () => {
 

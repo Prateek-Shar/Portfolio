@@ -1,10 +1,10 @@
-import star from "../../Images/star.png"
-import wave from "../../Images/wave.png"
-import pallete from "../../Images/pallete.png"
-import startup from "../../Images/startup.png"
+import star from "/Images/star.png"
+import wave from "/Images/wave.png"
+import pallete from "/Images/pallete.png"
+import startup from "/Images/startup.png"
 import { useRef } from "react"
-import herbal from "../../Images/tea-banner.png"
-import arr_down from "../../Images/arr_down.png";
+import herbal from "/Images/tea-banner.png"
+import arr_down from "/Images/arr_down.png";
 
 
 const Banner = () => {
@@ -31,13 +31,13 @@ const Banner = () => {
                         <img src={herbal} />
                     </div>
 
-                    {/* <div className="w-[90%] p-1">
-                        <p className="font-Poet text-[#737396] text-[15px] mm:text-[12px]">~ Currently Thinking Ideas ~</p>
-                    </div> */}
-
                     <div className="w-[90%] p-1">
-                        <p className="font-Poet text-[#737396] text-[15px] mm:text-[12px]">~ Working On Something ~</p>
+                        <p className="font-Poet text-[#737396] text-[15px] mm:text-[12px]">~ Currently Thinking Ideas ~</p>
                     </div>
+
+                    {/* <div className="w-[90%] p-1">
+                        <p className="font-Poet text-[#737396] text-[15px] mm:text-[12px]">~ Working On Something ~</p>
+                    </div> */}
                 </div>
             </div>
 

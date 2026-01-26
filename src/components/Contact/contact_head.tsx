@@ -1,5 +1,5 @@
-import telephone from "../../Images/telephone.png"
-import handshake from "../../Images/handshake.png"
+import telephone from "/Images/telephone.png"
+import handshake from "/Images/handshake.png"
 
 
 const Contact_head = () => {

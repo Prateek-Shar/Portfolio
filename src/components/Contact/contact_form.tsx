@@ -1,8 +1,8 @@
-import profile from "../../Images/profile.png"
-import profileTwo from "../../Images/profileTwo.png";
-import email from "../../Images/email_color.png"
-import bullseye from "../../Images/bullseye.png"
-import thinking from "../../Images/thinking.png"
+import profile from "/Images/profile.png"
+import profileTwo from "/Images/profileTwo.png";
+import email from "/Images/email_color.png"
+import bullseye from "/Images/bullseye.png"
+import thinking from "/Images/thinking.png"
 import emailjs from '@emailjs/browser';
 import  { useRef } from 'react';
  

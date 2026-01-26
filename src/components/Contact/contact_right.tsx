@@ -1,6 +1,6 @@
-import open_envelope from "../../Images/open_envelope.png"
+import open_envelope from "/Images/open_envelope.png"
 import Contact_form from "./contact_form";
-import magic from "../../Images/magic_wand.png"
+import magic from "/Images/magic_wand.png"
 
 
 const Right_side_contact = () => {

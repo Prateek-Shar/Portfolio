@@ -1,4 +1,4 @@
-import resume from "../../Images/resume.png"
+import resume from "/Images/resume.png"
 
 const openResume = () => {
     window.open("/resume.pdf" , "_blank") 

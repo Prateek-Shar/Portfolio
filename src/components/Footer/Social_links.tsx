@@ -1,6 +1,6 @@
-import git from "../../Images/github.png";
-import link from "../../Images/linkedin.png"
-import twitter from "../../Images/twitter.png"
+import git from "/Images/github.png";
+import link from "/Images/linkedin.png"
+import twitter from "/Images/twitter.png"
 
 
 

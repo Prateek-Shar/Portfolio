@@ -1,22 +1,22 @@
 import { useState } from "react";
-import next from "../../Images/next.png";
-import react from "../../Images/react.png"
-import typescript from "../../Images/typescript.png"
-import exp from "../../Images/express.png";
-import node from "../../Images/NodeJS.png";
-import mongo from "../../Images/mongo.png";
-import tailwind from "../../Images/Tailwind_CSS.png"
-import github from "../../Images/github.png"
-import eyes from "../../Images/eyes.png"
-import dashboard from "../../Images/dashboard_cover.jpg"
-import game from "../../Images/game.png";
-import CSharp from "../../Images/CSharp.png";
-import Unity from "../../Images/unity.png"
-import dashboard_icon from "../../Images/dashboard.png"
-import space_game_icon from "../../Images/space_game.png";
-import demo from "../../Images/demo.png";
-import recipe from "../../Images/recipe_bg.png";
-import recipe_icon from "../../Images/recipe_icon.png";
+import next from "/Images/next.png";
+import react from "/Images/react.png"
+import typescript from "/Images/typescript.png"
+import exp from "/Images/express.png";
+import node from "/Images/NodeJS.png";
+import mongo from "/Images/mongo.png";
+import tailwind from "/Images/Tailwind_CSS.png"
+import github from "/Images/github.png"
+import eyes from "/Images/eyes.png"
+import dashboard from "/Images/dashboard_cover.jpg"
+import game from "/Images/game.png";
+import CSharp from "/Images/CSharp.png";
+import Unity from "/Images/unity.png"
+import dashboard_icon from "/Images/dashboard.png"
+import space_game_icon from "/Images/space_game.png";
+import demo from "/Images/demo.png";
+import recipe from "/Images/recipe_bg.png";
+import recipe_icon from "/Images/recipe_icon.png";
 
 
 const Project_box = () => {

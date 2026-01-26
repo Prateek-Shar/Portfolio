@@ -31,7 +31,9 @@
 
 
 
-
+p , span {
+    cursor: default;
+}
 
 
 @keyframes explore {
@@ -381,6 +383,10 @@
 
 @utility animate-explore {
     animation: explore 3s ease-in-out infinite;
+}
+
+@utility to-default {
+    cursor: pointer !important ;
 }
 
 

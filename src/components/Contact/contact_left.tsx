@@ -1,11 +1,11 @@
-import message from "../../Images/message.png";
-import bullseye from "../../Images/bullseye.png"
-import email from "../../Images/email.png"
-import call from "../../Images/telephone_2.png"
-import pin from "../../Images/pin.png"
-import tea from "../../Images/tea.png"
-import graph from "../../Images/graph.png"
-import infinity from "../../Images/infinity.png"
+import message from "/Images/message.png";
+import bullseye from "/Images/bullseye.png"
+import email from "/Images/email.png"
+import call from "/Images/telephone_2.png"
+import pin from "/Images/pin.png"
+import tea from "/Images/tea.png"
+import graph from "/Images/graph.png"
+import infinity from "/Images/infinity.png"
 
 const Left_side_contact = () => {
 

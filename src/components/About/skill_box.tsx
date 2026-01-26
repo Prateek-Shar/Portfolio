@@ -1,7 +1,6 @@
-import code from "../../Images/coding.png"
-// import startup from "../../Images/startup.png";
-import pallete from "../../Images/pallete.png"
-import rocket from "../../Images/rocket.png"
+import code from "/Images/coding.png"
+import pallete from "/Images/pallete.png"
+import rocket from "/Images/rocket.png"
 
 const Skill_box = () => {
 

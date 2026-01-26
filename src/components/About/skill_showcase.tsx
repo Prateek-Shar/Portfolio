@@ -1,17 +1,17 @@
-import react from "../../Images/react.png";
-import typescript from "../../Images/typescript.png"
-import nodejs from "../../Images/NodeJS.png"
-import python from "../../Images/python.png";
-import git from "../../Images/git.png"
-import mongo from "../../Images/mongo.png"
-import exp from "../../Images/express.png"
-import CSharp from "../../Images/CSharp.png"
-import bullseye from "../../Images/bullseye.png"
-import clock from "../../Images/clock.png"
-import smile from "../../Images/smile.png"
-import tea from "../../Images/tea.png"
-import next from "../../Images/next.png"
-import unity from "../../Images/unity.png";
+import react from "/Images/react.png";
+import typescript from "/Images/typescript.png"
+import nodejs from "/Images/NodeJS.png"
+import python from "/Images/python.png";
+import git from "/Images/git.png"
+import mongo from "/Images/mongo.png"
+import exp from "/Images/express.png"
+import CSharp from "/Images/CSharp.png"
+import bullseye from "/Images/bullseye.png"
+import clock from "/Images/clock.png"
+import smile from "/Images/smile.png"
+import tea from "/Images/tea.png"
+import next from "/Images/next.png" 
+import unity from "/Images/unity.png";
 
 
 const Skill_showcase = () => {

@@ -1,8 +1,8 @@
-import about from "../../Images/about _me.png";
-import projects from "../../Images/project.png";
-import contact from "../../Images/contact.png";
-import menu from "../../Images/menu_bt.png";
-import close from "../../Images/close.png";
+import about from "/Images/about _me.png";
+import projects from "/Images/project.png";
+import contact from "/Images/contact.png";
+import menu from "/Images/menu_bt.png";
+import close from "/Images/close.png";
 import { useRef, useState } from "react";
 
 
@@ -73,11 +73,11 @@ const Links_text:React.FC<Switch> = ( {SwitchToAbout , SwitchToContact , SwitchT
             <div className="2xl:w-[24%] 2xl:flex 2xl:flex-col hover:cursor-pointer" onClick={SwitchToAbout} >
                 <div className="2xl:w-full 2xl:flex">
                     <div className="2xl:w-[30%]">
-                        <img src={about} className="2xl:object-contain 2xl:w-[90%] 2xl:p-1"/>
+                        <img src={about} className="2xl:object-contain 2xl:w-[90%] 2xl:p-[6px]"/>
                     </div>
 
-                    <div className="2xl:w-[70%] 2xl:flex 2xl:items-center">
-                        <p className="font-Poppins 2xl:text-[20px] 2xl:pl-1 text-[#0c1931]">About</p>
+                    <div className="2xl:w-[70%] 2xl:flex 2xl:items-center hover:to-default">
+                        <p className="font-Poppins 2xl:text-[18px] 2xl:pl-1 text-[#0c1931] hover:to-default">About</p>
                     </div>
                 </div>
             </div>
@@ -87,11 +87,11 @@ const Links_text:React.FC<Switch> = ( {SwitchToAbout , SwitchToContact , SwitchT
             <div className="2xl:w-[23%] 2xl:flex 2xl:flex-col hover:cursor-pointer" onClick={SwitchToProject} >
                 <div className="2xl:w-full 2xl:flex">
                     <div className="2xl:w-[30%] 2xl:flex 2xl:justify-center">
-                        <img src={projects} className="2xl:object-contain 2xl:w-[90%] 2xl:p-1"/>
+                        <img src={projects} className="2xl:object-contain 2xl:w-full 2xl:p-0"/>
                     </div>
 
-                    <div className="2xl:w-[70%] 2xl:flex 2xl:items-center">
-                        <p className="font-Poppins text-[18px] 2xl:pl-1 text-[#0c1931]">Projects</p>
+                    <div className="2xl:w-[70%] 2xl:flex 2xl:items-center hover:cursor-pointer">
+                        <p className="font-Poppins text-[17px] 2xl:pl-1 text-[#0c1931 ">Projects</p>
                     </div>
                 </div>  
             </div>
@@ -101,11 +101,11 @@ const Links_text:React.FC<Switch> = ( {SwitchToAbout , SwitchToContact , SwitchT
             <div className="2xl:w-[24%] 2xl:flex 2xl:flex-col hover:cursor-pointer" onClick={SwitchToContact} >
                 <div className="2xl:w-full 2xl:flex">
                     <div className="w-[30%]">
-                        <img src={contact} className="2xl:object-contain 2xl:w-[90%] 2xl:p-1"/>
+                        <img src={contact} className="2xl:object-contain 2xl:w-[90%] 2xl:p-[6px]"/>
                     </div>
 
-                    <div className="2xl:w-[70%] 2xl:flex 2xl:items-center">
-                        <p className="font-Poppins text-[18px]">Contact</p>
+                    <div className="2xl:w-[70%] 2xl:flex 2xl:items-center hover:cursor-pointer">
+                        <p className="font-Poppins text-[16px] hover:cursor-pointer">Contact</p>
                     </div>
                 </div>
             </div>

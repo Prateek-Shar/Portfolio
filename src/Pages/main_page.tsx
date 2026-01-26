@@ -9,14 +9,14 @@ import Project_box from "../components/Project/project_box";
 import Contact_head from "../components/Contact/contact_head";
 import Left_side_contact from "../components/Contact/contact_left";
 import Right_side_contact from "../components/Contact/contact_right";
-import star from "../Images/star.png";
-import phone from "../Images/phone.png"
-import confetti from "../Images/confetti.png"
-import project from "../Images/project.png"
-import smile from "../Images/smile.png"
-import ballons from "../Images/balloons.png"
+import star from "/Images/star.png";
+import phone from "/Images/phone.png"
+import confetti from "/Images/confetti.png"
+import project from "/Images/project.png"
+import smile from "/Images/smile.png"
+import ballons from "/Images/balloons.png"
 import More_project_bt from "../components/Project/more_project_bt"
-import rocket_bg from "../Images/rocket_bg.png";
+import rocket_bg from "/Images/rocket_bg.png";
 import Footer_para from "../components/Footer/footer_para";
 import { useRef } from 'react';
 import Lenis from 'lenis'
