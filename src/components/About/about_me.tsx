@@ -29,7 +29,7 @@ const About = () => {
 
                 <div className="w-full flex justify-center mb-2 ml:mt-2 mm:mt-2">
                     <div className="xl:w-[80%] ml:w-[90%] mm:w-[90%] 2xl:w-[55%]">
-                        <p className="xl:p-2 font-Poppins text-[#5c626c] text-[16px] mm:p-2 mm:text-[15px]">Hey there! 👋 I'm a tea-powered developer who believes code should be as fun to write as it is to use! When I'm not turning ideas into reality, you'll find me debugging with rubber ducks 🦆 and high-fiving my computer when it works! 🖥️✋</p>
+                        <p className="xl:p-2 font-Poppins text-[#282c31] text-[16px] mm:p-2 mm:text-[15px] text-center">Hey there! 👋 I'm a tea-powered developer who believes code should be as fun to write as it is to use! When I'm not turning ideas into reality, you'll find me debugging with rubber ducks 🦆 and high-fiving my computer when it works! 🖥️✋</p>
                     </div>
                 </div>
 

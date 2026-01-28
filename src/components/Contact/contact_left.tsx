@@ -1,5 +1,4 @@
 import message from "/Images/message.png";
-import bullseye from "/Images/bullseye.png"
 import email from "/Images/email.png"
 import call from "/Images/telephone_2.png"
 import pin from "/Images/pin.png"
@@ -22,9 +21,9 @@ const Left_side_contact = () => {
                     <p className="font-Poet xl:text-[24px] text-[30px] pl-1 text-[#0c1931]">Let's start something epic</p>
                 </div>
 
-                <div className="w-[10%] ml-12">
+                {/* <div className="w-[10%] ml-12">
                     <img src={bullseye} className=" p-2"/>
-                </div>
+                </div> */}
             </div>
 
             

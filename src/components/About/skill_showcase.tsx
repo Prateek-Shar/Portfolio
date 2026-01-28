@@ -6,7 +6,7 @@ import git from "/Images/git.png"
 import mongo from "/Images/mongo.png"
 import exp from "/Images/express.png"
 import CSharp from "/Images/CSharp.png"
-import bullseye from "/Images/bullseye.png"
+import project_built from "/Images/project_built.png"
 import clock from "/Images/clock.png"
 import smile from "/Images/smile.png"
 import tea from "/Images/tea.png"
@@ -19,17 +19,17 @@ const Skill_showcase = () => {
     return (
         <div className="xl:w-[80%] 2xl:w-[60%] xl:flex xl:flex-col mb-20 bg-[#e0e4eb] shadow-2xl rounded-4xl ml:flex ml:flex-col ml:w-[90%] mm:w-[90%]">
             
-            <div className="w-full flex justify-center">
+            <div className="w-full flex justify-center xl:mt-2 ml:mt-0">
                 <div className="xl:w-[60%] flex justify-center items-center p-4 ml:w-full mm:w-full">
                     <h2 className="xl:text-3xl font-bold font-Poppins text-[#0c1931] ml:text-[15px] mm:text-[14px]">Let's Create Something Amazing! 🎨✨</h2>
                 </div>
             </div>
 
-            <div className="w-full flex justify-center">
+            <div className="w-full flex justify-center text-center ">
                 <div className="xl:w-[70%] xl:mt-4 
                 ml:mt-4 ml:w-[90%]
                 mm:w-[90%] mm:mt-4">
-                    <p className="p-2 font-Poppins text-[#282c31] ml:text-[13px] mm:text-[14px]">I believe the best projects happen when talented people get together and have fun! Want to build something that'll make users go "WOW!"? Let's do it! 🚀</p>
+                    <p className="p-2 font-Poppins text-[#282c31] xl:text-[15px] ml:text-[13px] mm:text-[14px]">I believe the best projects happen when talented people get together and have fun! Want to build something that'll make users go "WOW!"? Let's do it! 🚀</p>
                 </div>
             </div>
 
@@ -267,7 +267,7 @@ const Skill_showcase = () => {
                     <div className="xl:w-[20%] mb-5 mt-5 ml:w-[90%] mm:w-[90%]">
                         <div className="w-full flex justify-center">
                             <div className="w-[15%]">
-                                <img src={bullseye} />
+                                <img src={project_built} />
                             </div>
                         </div>
 
@@ -285,7 +285,7 @@ const Skill_showcase = () => {
 
                         <div className="w-full flex justify-center">
                             <div className="w-[70%] flex justify-center">
-                                <p className="font-Poppins opacity-70 text-[#282c31]">and Counting</p>
+                                <p className="font-Poppins opacity-70 text-[13px] text-[#282c31]">and Counting</p>
                             </div>
                         </div>
                     </div>
@@ -311,7 +311,7 @@ const Skill_showcase = () => {
 
                         <div className="w-full flex justify-center">
                             <div className="w-[70%] flex justify-center">
-                                <p className="font-Poppins opacity-70 text-[#282c31]">Still loving it</p>
+                                <p className="font-Poppins opacity-70 text-[13px] text-[#282c31]">Still loving it</p>
                             </div>
                         </div>
                     </div>
@@ -364,7 +364,7 @@ const Skill_showcase = () => {
 
                         <div className="w-full flex justify-center">
                             <div className="w-[70%] flex justify-center">
-                                <p className="font-Poppins opacity-70 text-[#282c31]">Fuel for code!</p>
+                                <p className="font-Poppins opacity-70 text-[13px] text-[#282c31]">Fuel for code!</p>
                             </div>
                         </div>
                     </div>

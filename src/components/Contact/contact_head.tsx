@@ -26,7 +26,7 @@ const Contact_head = () => {
 
             <div className="w-full flex justify-center">
                 <div className="xl:w-[70%] ml:w-[90%] mm:w-[90%]">
-                    <p className="font-Poppins p-4 ml:text-[14px] mm:text-[14px] xl:text-[16px] xl:p-2 xl:mt-2 text-[#282c31]">Got an awesome project? Want to grab virtual tea? Just want to say hi? 1'd
+                    <p className="font-Poppins p-4 ml:text-[14px] mm:text-[14px] xl:text-[16px] xl:p-2 xl:mt-2 text-[#282c31] text-center">Got an awesome project? Want to grab virtual tea? Just want to say hi? 1'd
                     love to hear from you! Drop me a line and let's create something amazing together!</p>
                 </div>
             </div>

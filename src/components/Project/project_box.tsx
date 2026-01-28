@@ -127,13 +127,13 @@ const Project_box = () => {
                         <p className="font-Poppins pl-2 pr-4 pt-4 text-[#282c31]">Designed and built a modern financial dashboard to track and visualize key income , customer and products data.<br/></p>
                         
                         {moreBt2 && (
-                        <span className="text-[#343a40] hover:cursor-pointer font-Poppins pl-2" onClick={extendPara2}>More...</span>
+                            <span className="text-[#343a40] hover:cursor-pointer font-Poppins pl-2" onClick={extendPara2}>More...</span>
                         )}
                         
                         {projectPara2 && (
-                        <p className="font-Poppins pl-2 pr-4 mt-2 text-[#282c31]">
-                        Users can toggle between daily, monthly, and yearly views effortlessly.
-                        Visual insights are presented through dynamic charts 🎉</p>
+                            <p className="font-Poppins pl-2 pr-4 mt-2 text-[#282c31]">
+                            Users can toggle between daily, monthly, and yearly views effortlessly.
+                            Visual insights are presented through dynamic charts 🎉</p>
                         )}
                     </div>
                 </div>
@@ -342,7 +342,7 @@ const Project_box = () => {
 
                 <div className="w-full">
                     <div className="w-full">
-                        <p className="font-Poppins pl-2 pr-4 pt-4 text-[#282c31]">Created a fast-paced 2D space shooter game with responsive controls and dynamic enemy waves.<br/></p>
+                        <p className="font-Poppins pl-2 pr-4 pt-4 text-[#282c31]">A fast-paced 2D space shooter game with simple controls and dynamic enemy waves.<br/></p>
                         
                         {moreBt3 && (
                         <span className="text-[#343a40] hover:cursor-pointer font-Poppins pl-2" onClick={extendPara3}>More...</span>
@@ -350,10 +350,9 @@ const Project_box = () => {
                         
                         {projectPara3 && (
                         <p className="font-Poppins pl-2 pr-4 text-[#282c31] mt-2">
-                        Players navigate a spaceship, dodge obstacles, and shoot down enemies to earn points.
-                        The game features power-ups, multiple levels, and a lives system to maintain balanced difficulty.
-                        Smooth animations, sound effects, and UI elements enhance the gameplay experience.
-                        Built with a focus on performance, replayability, and engaging mechanics..🎉</p>
+                        Players navigate a spaceship, and shoot down enemies to earn points.
+                        The game features power-ups, and a lives system to maintain balanced difficulty.
+                        Smooth animations, sound effects, and UI elements enhance the gameplay experience..🎉</p>
                         )}
                     </div>
                 </div>
@@ -361,7 +360,7 @@ const Project_box = () => {
                 <div className="w-full flex-col">
                     <div className="w-full flex justify-evenly mt-5 2xl:mt-7">
 
-                        <div className="2xl:w-[25%] w-[20%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 p-1 rounded-4xl mm:w-[20%]">
+                        <div className="2xl:w-[25%] w-[20%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 xl:p-0 p-1 rounded-4xl mm:w-[20%]">
                             <div className="w-[60%] flex justify-center items-center">
                                 <p className="font-Poppins xl:text-[14px] ml:text-[11px] mm:text-[11px] 2xl:text-[16px]">C#</p>
                             </div>
@@ -371,7 +370,7 @@ const Project_box = () => {
                             </div>
                         </div>
 
-                        <div className="w-[40%] 2xl:w-[35%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 p-1 rounded-4xl mm:w-[45%]">
+                        <div className="w-[40%] 2xl:w-[35%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 xl:p-0 p-1 rounded-4xl mm:w-[45%]">
                             <div className="2xl:w-[80%] w-[70%] flex justify-center items-center">
                                 <p className="font-Poppins xl:text-[14px] ml:text-[12px] mm:text-[12px] 2xl:text-[15px]">Unity Engine</p>
                             </div>
@@ -384,7 +383,7 @@ const Project_box = () => {
                     </div>
                 </div>
 
-                <div className="w-full flex justify-center ml:mt-5 mm:mt-5" >
+                <div className="w-full flex justify-center ml:mt-5 mm:mt-5 xl:mt-2" >
                     <button className="w-[40%] border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl  rounded-[10px] flex ml:w-[50%] ml:mt-2 ml:mb-2 mm:mt-2 mm:mb-2 2xl:mt-10 hover:cursor-pointer" onClick={Navigate_Space_project}>
                         <div className="w-[20%]">
                             <img src={github} className="p-2" />
