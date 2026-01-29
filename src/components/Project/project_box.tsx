@@ -111,7 +111,7 @@ const Project_box = () => {
                 )}
 
                 <div className="w-[11%] absolute top-3 2xl:-translate-x-6 mm:-translate-x-4">
-                    <p className="2xl:text-5xl font-extrabold text-[#0c1931] mm:text-3xl">01</p>
+                    <p className="2xl:text-5xl font-Poet text-[#0c1931] mm:text-3xl">01</p>
                 </div>
 
                 <div className="w-full flex justify-center items-center mt-20">
@@ -139,7 +139,7 @@ const Project_box = () => {
                 </div>
 
                 <div className="w-full flex-col">
-                    <div className="w-full flex justify-evenly ml:mt-8">
+                    <div className="w-full flex justify-evenly ml:mt-8 mm:mt-8">
 
                         <div className="w-[20%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 p-1 rounded-4xl">
                             <div className="w-[80%] flex justify-center items-center">
@@ -226,7 +226,7 @@ const Project_box = () => {
 
                 <div className="w-full flex justify-center items-center mt-2 mb-2">
                     <div className="w-[50%] mm:w-[60%] flex mm:ml-8 ml:ml-12 xl:ml-25">
-                        <div className="w-[2%] flex justify-center items-center animate-pulse">
+                        <div className="xl:w-[2.5%] mm:w-[3%] ml:w-[2.5%] flex justify-center items-center animate-pulse">
                             <div className="w-full h-[6px] bg-red-600 rounded-full" />
                         </div>
 
@@ -249,14 +249,14 @@ const Project_box = () => {
                 )}
 
                 <div className="w-[11%] absolute top-3 2xl:-translate-x-6 mm:-translate-x-4">
-                    <p className="2xl:text-5xl font-extrabold text-[#0c1931] mm:text-3xl">02</p>
+                    <p className="2xl:text-5xl font-Poet text-[#0c1931] mm:text-3xl">02</p>
                 </div>
 
                 <div className="w-full mb-15 flex justify-center items-center mt-22">
                     <img src={recipe}  className=" object-contain w-[90%] rounded-[5px]"/>
                 </div>
 
-                <div className="w-full xl:mt-8 2xl:mt-5">
+                <div className="w-full xl:mt-8">
                     <p className="pl-2 font-Poppins font-bold text-[#0c1931]">Recipe Tales! ✨</p>
                 </div>
 
@@ -275,7 +275,7 @@ const Project_box = () => {
                 </div>
 
 
-                <div className="w-full flex justify-center items-center mt-15">
+                <div className="w-full flex justify-center items-center xl:mt-15 mm:mt-10 ml:mt-12">
                     <div className="w-[30%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs ">
                         <div className="w-[75%] flex justify-center items-center pt-2 pb-2">
                             <p className="font-Poppins ml:text-[14px] mm:text-[14px] text-[#282c31] xl:text-[15px]">Next JS</p>
@@ -304,7 +304,7 @@ const Project_box = () => {
 
                 <div className="w-full flex justify-center items-center my-2">
                     <div className="w-[50%] flex xl:ml-20 mm:w-[60%] mm:ml-8 ml:ml-12">
-                        <div className="w-[2.5%] flex justify-center items-center animate-pulse">
+                        <div className="xl:w-[2%] mm:w-[3%] ml:w-[2.5%] flex justify-center items-center animate-pulse">
                             <div className="w-full h-[6px] bg-red-600 rounded-full" />
                         </div>
 
@@ -329,7 +329,7 @@ const Project_box = () => {
                 )}
 
                 <div className="w-[11%] absolute top-2 2xl:-translate-x-6 mm:-translate-x-4">
-                    <p className="2xl:text-5xl font-extrabold text-[#0c1931] mm:text-3xl">03</p>
+                    <p className="2xl:text-5xl font-Poet text-[#0c1931] mm:text-3xl">03</p>
                 </div>
                 
                 <div className="w-full flex justify-center items-center mt-20">
@@ -384,13 +384,13 @@ const Project_box = () => {
                 </div>
 
                 <div className="w-full flex justify-center ml:mt-5 mm:mt-5 xl:mt-2" >
-                    <button className="w-[40%] border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl  rounded-[10px] flex ml:w-[50%] ml:mt-2 ml:mb-2 mm:mt-2 mm:mb-2 2xl:mt-10 hover:cursor-pointer" onClick={Navigate_Space_project}>
+                    <button className="xl:w-[50%] border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl rounded-[10px] flex ml:w-[50%] mm:w-[50%] ml:mt-2 ml:mb-2 mm:mt-2 mm:mb-2 2xl:mt-10 hover:cursor-pointer" onClick={Navigate_Space_project}>
                         <div className="w-[20%]">
                             <img src={github} className="p-2" />
                         </div>
 
                         <div className="w-[60%] flex justify-center items-center">
-                            <p className="font-Poppins xl:text-[14px] ml:text-[12px] mm:text-[10px] 2xl:text-[15px]">See Code</p>
+                            <p className="font-Poppins xl:text-[14px] ml:text-[12px] mm:text-[11px]">See Code</p>
                         </div>
 
                         <div className="w-[20%]">
@@ -401,7 +401,7 @@ const Project_box = () => {
 
                 <div className="w-full flex justify-center items-center my-2">
                     <div className="xl:w-[40%] mm:w-[60%] flex mm:ml-20 ml:ml-28 xl:ml-14">
-                        <div className="w-[3%] flex justify-center items-center animate-pulse">
+                        <div className="ml:w-[2.5%] mm:w-[2.5%] xl:w-[3%] flex justify-center items-center animate-pulse">
                             <div className="w-full h-[5px] bg-red-600 rounded-full" />
                         </div>
 

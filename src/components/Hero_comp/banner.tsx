@@ -42,7 +42,7 @@ const Banner = () => {
             </div>
 
             <div className="xl:w-[40%] xl:flex xl:items-center xl:flex-row-reverse xl:ml-85 mt-10 ml:w-[90%] ml:ml-0 ml:flex ml:flex-row-reverse mm:flex mm:justify-center ">
-                <div className="xl:w-[70%] ml:w-[70%] mm:w-[80%] flex ml:flex ml:justify-center ml:items-center">
+                <div className="xl:w-[70%] ml:w-[72%] mm:w-[80%] flex ml:flex ml:justify-center ml:items-center">
                     <div className="xl:w-[30%] flex justify-center ml:items-center ml:w-[24%]">
                         <p className="font-Mogra p-2 ml:p-0.5 mm:p-0.5 mm:text-[25px] xl:text-5xl mm:pl-2 text-[#2c2626] ml:text-[25px]">Hey ,</p>
                     </div>
@@ -52,7 +52,7 @@ const Banner = () => {
                     </div>
 
                     <div className="xl:w-[10%] xl:mt-0 mm:mt-0 mm:w-[10%]
-                    ml:w-[12%] ml:mt-0 ml:flex ml:items-center ml:justify-center mm:flex mm:justify-center">
+                    ml:w-[12%] ml:mt-0 ml:flex ml:items-center ml:justify-center mm:flex mm:justify-center mm:mb-3 mm:ml-2 ml:ml-0 ml:mb-3">
                         <img src={wave} className="p-2 ml:p-0 mm:p-0 animate-hand ml:object-contain ml:w-[70%] mm:object-contain mm:w-[90%]"/>  
                     </div>
                 </div>
