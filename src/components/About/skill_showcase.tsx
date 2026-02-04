@@ -13,6 +13,7 @@ import tea from "/Images/tea.png"
 import next from "/Images/next.png" 
 import unity from "/Images/unity.png";
 import html from "/Images/html.png"
+import js from "/Images/js.png"
 
 
 const Skill_showcase = () => {
@@ -99,9 +100,9 @@ const Skill_showcase = () => {
 
                 </div>
 
-                <div className="w-[80%] flex justify-evenly mt-2 xl:flex ml:hidden mm:hidden my-2">
+                <div className="w-[80%] flex justify-evenly xl:flex ml:hidden mm:hidden mt-4 mb-2">
 
-                    <div className="w-[11%] bg-[#e9ecef] flex items-center justify-center rounded-[10px] shadow-2xs py-2">
+                    <div className="w-[11%] bg-[#e9ecef] flex items-center justify-center rounded-[10px] shadow-2xs py-1">
                         <div className="w-[70%] flex justify-center items-center ml-1">
                             <p className="font-Poppins">HTML</p> 
                         </div>
@@ -111,7 +112,7 @@ const Skill_showcase = () => {
                         </div>
                     </div>
 
-                    <div className="w-[15%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs py-2">
+                    <div className="w-[14%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs py-1">
                         <div className="w-[80%] flex justify-center items-center">
                             <p className="font-Poppins text-[#282c31]">MongoDB</p>
                         </div>
@@ -119,9 +120,19 @@ const Skill_showcase = () => {
                         <div className="w-[20%] flex items-center justify-center">
                             <img src={mongo} className=""/>
                         </div>
+                    </div>  
+
+                    <div className="w-[14%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs py-1">
+                        <div className="w-[80%] flex justify-center items-center">
+                            <p className="font-Poppins text-[#282c31]">Javascript</p>
+                        </div>
+
+                        <div className="w-[20%] flex items-center justify-center">
+                            <img src={js} className="object-contain w-[65%]"/>
+                        </div>
                     </div>
 
-                    <div className="w-[10%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs py-2">
+                    <div className="w-[10%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs py-1">
                         <div className="w-[60%] flex justify-center items-center">
                             <p className="font-Poppins text-[#282c31]">C#</p>
                         </div>
@@ -131,7 +142,7 @@ const Skill_showcase = () => {
                         </div>
                     </div>
 
-                    <div className="w-[13%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs py-2">
+                    <div className="w-[13%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs py-1">
                         <div className="w-[80%] flex justify-center items-center">
                             <p className="font-Poppins text-[#282c31] xl:text-[16px]">Next JS</p>
                         </div>
@@ -141,7 +152,7 @@ const Skill_showcase = () => {
                         </div>
                     </div>
 
-                    <div className="w-[12%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs py-2">
+                    <div className="w-[12%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs py-1.5">
                         <div className="w-[65%] flex justify-center items-center">
                             <p className="font-Poppins ml:text-[14px] mm:text-[14px] text-[#282c31] xl:text-[16px]">Unity</p>
                         </div>
@@ -265,6 +276,30 @@ const Skill_showcase = () => {
 
                         <div className="w-[40%] flex items-center justify-center">
                             <img src={unity} className="object-contain w-[80%]"/>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="w-full ml:flex ml:justify-evenly mm:flex mm:justify-evenly
+                xl:hidden mt-2">
+                    <div className="w-[30%] bg-[#e9ecef] rounded-[10px] flex">
+                        <div className="w-[75%] flex justify-center items-center pt-2 pb-2">
+                            <p className="font-Poppins ml:text-[14px] mm:text-[14px] text-[#282c31] xl:text-[12px]">HTML</p>
+                        </div>
+
+                        <div className="w-[20%] flex items-center justify-center">
+                            <img src={html} className="object-contain w-[80%]"/>
+                        </div>
+                    </div>
+
+                    <div className="w-[30%] bg-[#e9ecef] rounded-[10px] flex">
+                        <div className="w-[80%] flex justify-center items-center pt-2 pb-2">
+                            <p className="font-Poppins ml:text-[14px] mm:text-[14px] text-[#282c31]">Javascript</p>
+                        </div>
+
+                        <div className="w-[15%] flex items-center justify-center">
+                            <img src={js} className=""/>
                         </div>
                     </div>
                 </div>
