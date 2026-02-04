@@ -37,7 +37,7 @@ const Contact_form = () => {
 
     return (
         
-        <form className="w-[80%] flex flex-col justify-center mt-10 mb-11" ref={form} onSubmit={sendEmail}>
+        <form className="w-[80%] flex flex-col justify-center xl:mt-10 ml:mt-7 mm:mt-7 mb-11" ref={form} onSubmit={sendEmail}>
 
             <div className="w-full flex flex-col justify-between">
                 <div className="w-full flex justify-between">
@@ -64,11 +64,11 @@ const Contact_form = () => {
 
                 <div className="w-full flex justify-between">
                     <div className="w-[45%] border-2 border-[#e5e7eb] rounded-[10px]">
-                        <input type="text" name="FirstName" required placeholder="Your Awesome Name" className="w-full rounded-[8px] placeholder:text-[#6b7280] xl:placeholder:text-[12px] bg-white xl:pt-3 xl:pb-3 focus:outline-0 font-Poppins xl:text-[14px] ml:text-[12px] ml:placeholder:text-[10px] ml:pt-4 ml:pb-3 ml:pl-2 mml:placeholder:text-[12px] mm:pt-4.5 mm:pb-4.5 mm:pl-1 mm:placeholder:text-[9px] mm:text-[10px]" />
+                        <input type="text" name="FirstName" required placeholder="Your Awesome Name" className="w-full rounded-[8px] placeholder:text-[#6b7280] xl:placeholder:text-[12px] bg-white xl:pt-3 xl:pb-3 focus:outline-0 font-Poppins xl:text-[14px] ml:text-[12px] ml:placeholder:text-[10px] ml:py-3 ml:pl-2 mml:placeholder:text-[12px] mm:py-3 mm:pl-1 mm:placeholder:text-[9px] mm:text-[10px]" />
                     </div>
 
                     <div className="w-[45%] border-2 border-[#e5e7eb] rounded-[10px]">
-                        <input type="text" name="LastName" required placeholder="Your Awesome Name" className="w-full rounded-[8px] placeholder:text-[#6b7280] xl:placeholder:font-Poppins xl:placeholder:text-[12px] bg-white xl:pt-3 xl:pb-3 xl:pl-2 focus:outline-0 font-Poppins ml:text-[12px] ml:pt-3 ml:pb-4 xl:text-[14px] ml:placeholder:text-[10px] mm:pt-4.5 mm:pb-4.5 mm:pl-1 mm:placeholder:text-[9px] mm:text-[10px]" />
+                        <input type="text" name="LastName" required placeholder="Your Awesome Name" className="w-full rounded-[8px] placeholder:text-[#6b7280] xl:placeholder:font-Poppins xl:placeholder:text-[12px] bg-white xl:pt-3 xl:pb-3 xl:pl-2 focus:outline-0 font-Poppins ml:text-[12px] ml:py-3 xl:text-[14px] ml:placeholder:text-[10px] mm:py-3 mm:pl-1 mm:placeholder:text-[9px] mm:text-[10px]" />
                     </div>
                 </div>
             </div>

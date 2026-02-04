@@ -51,7 +51,7 @@ const Banner = () => {
                         <span className="font-Mogra ml:text-[26px] xl:text-5xl mm:text-[23px] text-[#2c2626] ml:p-1 p-4 xl:p-0 mm:p-0">I'm Prateek !</span>
                     </div>
 
-                    <div className="xl:w-[10%] xl:mt-0 mm:mt-0 mm:w-[10%]
+                    <div className="xl:w-[10%] xl:mt-0 xl:mb-5 mm:mt-0 mm:w-[10%]
                     ml:w-[12%] ml:mt-0 ml:flex ml:items-center ml:justify-center mm:flex mm:justify-center mm:mb-3 mm:ml-2 ml:ml-0 ml:mb-3">
                         <img src={wave} className="p-2 ml:p-0 mm:p-0 animate-hand ml:object-contain ml:w-[70%] mm:object-contain mm:w-[90%]"/>  
                     </div>

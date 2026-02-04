@@ -91,7 +91,7 @@ const Links_text:React.FC<Switch> = ( {SwitchToAbout , SwitchToContact , SwitchT
                     </div>
 
                     <div className="2xl:w-[70%] 2xl:flex 2xl:items-center hover:cursor-pointer">
-                        <p className="font-Poppins text-[17px] 2xl:pl-1 text-[#0c1931 ">Projects</p>
+                        <p className="font-Poppins text-[17px] 2xl:pl-1 text-[#0c1931 hover:to-default">Projects</p>
                     </div>
                 </div>  
             </div>
@@ -105,7 +105,7 @@ const Links_text:React.FC<Switch> = ( {SwitchToAbout , SwitchToContact , SwitchT
                     </div>
 
                     <div className="2xl:w-[70%] 2xl:flex 2xl:items-center hover:cursor-pointer">
-                        <p className="font-Poppins text-[16px] hover:cursor-pointer">Contact</p>
+                        <p className="font-Poppins text-[16px] hover:to-default">Contact</p>
                     </div>
                 </div>
             </div>

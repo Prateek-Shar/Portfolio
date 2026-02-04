@@ -10,16 +10,16 @@ const Right_side_contact = () => {
 
         <div className="w-full flex justify-center">
 
-            <div className="w-[10%] mm:w-[12%] xl:w-[10%]">
+            <div className="mm:w-[10%] xl:w-[10%] ml:w-[13%]">
                 <img src={open_envelope} className="xl:p-2 ml:p-2" />
             </div>
 
         </div>
 
-        <div className="w-full flex justify-center">
-            <div className="xl:w-[60%] flex mm:w-[90%] ml:w-[90%]">
-                <div className="w-[90%] flex items-center justify-center ml:w-full ml:flex ml:justify-center ml:items-center">
-                    <p className="font-Poet text-[#0c1931] mm:text-[21px] ml:text-[22px] xl:text-[22px] p-2 2xl:text-[25px]">Send Me Some Magic !</p>
+        <div className="w-full flex justify-center xl:mt-0 mm:mt-2">
+            <div className="xl:w-[60%] flex mm:w-[90%] ml:w-[90%] justify-center">
+                <div className="xl:w-[90%] mm:w-[78%] ml:w-[78%] flex items-center justify-center ml:flex ml:justify-center ml:items-center">
+                    <p className="font-Poet text-[#0c1931] mm:text-[21px] ml:text-[24px] xl:text-[28px] p-2">Send Me Some Magic !</p>
                 </div>
 
                 <div className="w-[10%] flex items-center ml:w-[10%]">

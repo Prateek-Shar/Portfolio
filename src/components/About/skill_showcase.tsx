@@ -12,6 +12,7 @@ import smile from "/Images/smile.png"
 import tea from "/Images/tea.png"
 import next from "/Images/next.png" 
 import unity from "/Images/unity.png";
+import html from "/Images/html.png"
 
 
 const Skill_showcase = () => {
@@ -98,9 +99,20 @@ const Skill_showcase = () => {
 
                 </div>
 
-                <div className="w-[50%] flex justify-evenly mt-2 xl:flex ml:hidden mm:hidden">
-                    <div className="w-[22%] bg-[#e9ecef] rounded-[10px] flex mt-2 mb-2 shadow-2xs">
-                        <div className="w-[80%] flex justify-center items-center pt-2 pb-2">
+                <div className="w-[80%] flex justify-evenly mt-2 xl:flex ml:hidden mm:hidden my-2">
+
+                    <div className="w-[11%] bg-[#e9ecef] flex items-center justify-center rounded-[10px] shadow-2xs py-2">
+                        <div className="w-[70%] flex justify-center items-center ml-1">
+                            <p className="font-Poppins">HTML</p> 
+                        </div>
+
+                        <div className="w-[30%] flex items-center justify-center mr-1">
+                            <img src={html} className="w-[70%]"/>
+                        </div>
+                    </div>
+
+                    <div className="w-[15%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs py-2">
+                        <div className="w-[80%] flex justify-center items-center">
                             <p className="font-Poppins text-[#282c31]">MongoDB</p>
                         </div>
 
@@ -109,8 +121,8 @@ const Skill_showcase = () => {
                         </div>
                     </div>
 
-                    <div className="w-[15%] bg-[#e9ecef] rounded-[10px] flex mt-2 mb-2 shadow-2xs">
-                        <div className="w-[60%] flex justify-center items-center pt-2 pb-2">
+                    <div className="w-[10%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs py-2">
+                        <div className="w-[60%] flex justify-center items-center">
                             <p className="font-Poppins text-[#282c31]">C#</p>
                         </div>
 
@@ -119,8 +131,8 @@ const Skill_showcase = () => {
                         </div>
                     </div>
 
-                    <div className="w-[20%] bg-[#e9ecef] rounded-[10px] flex mt-2 mb-2 shadow-2xs">
-                        <div className="w-[80%] flex justify-center items-center pt-2 pb-2">
+                    <div className="w-[13%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs py-2">
+                        <div className="w-[80%] flex justify-center items-center">
                             <p className="font-Poppins text-[#282c31] xl:text-[16px]">Next JS</p>
                         </div>
 
@@ -129,8 +141,8 @@ const Skill_showcase = () => {
                         </div>
                     </div>
 
-                    <div className="w-[18%] bg-[#e9ecef] rounded-[10px] flex mt-2 mb-2">
-                        <div className="w-[65%] flex justify-center items-center py-2">
+                    <div className="w-[12%] bg-[#e9ecef] rounded-[10px] flex shadow-2xs py-2">
+                        <div className="w-[65%] flex justify-center items-center">
                             <p className="font-Poppins ml:text-[14px] mm:text-[14px] text-[#282c31] xl:text-[16px]">Unity</p>
                         </div>
 
@@ -299,7 +311,7 @@ const Skill_showcase = () => {
 
                         <div className="w-full flex justify-center">
                             <div className="w-[35%] flex justify-center">
-                                <p className="font-Poppins font-bold text-[#0c1931] text-4xl p-2">2+</p>
+                                <p className="font-Poppins font-bold text-[#0c1931] text-4xl p-2">1+</p>
                             </div>
                         </div>
 
