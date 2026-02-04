@@ -25,16 +25,8 @@ const Project_box = () => {
         window.open("https://insightboard.vercel.app/" , "_blank")
     }
 
-    const Navigate_Recipe_Tales_Demo = () => {
-        window.open("https://recipe-tales.vercel.app/" , "_blank")
-    }
-
     const Navigate_Space_project = () => {
         window.open("https://github.com/Prateek-Shar/Space_Shooter" , "_blank")
-    }
-
-    const Navigate_Recipe_code = () => {
-        window.open("https://github.com/Prateek-Shar/Recipe-Tales" , "_blank")
     }
 
     const Navigate_Dashboard_code = () => {
