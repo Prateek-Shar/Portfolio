@@ -24,16 +24,22 @@ const Project_box = () => {
     const Navigate_Dashboard_Demo = () => {
         window.open("https://insightboard.vercel.app/" , "_blank")
     }
+    
+    const Navigate_Dashboard_code = () => {
+        window.open("https://github.com/stars/Prateek-Shar/lists/dashboard" , "_blank")
+    }
 
     const Navigate_Space_project = () => {
         window.open("https://github.com/Prateek-Shar/Space_Shooter" , "_blank")
     }
 
-    const Navigate_Dashboard_code = () => {
-        window.open("https://github.com/stars/Prateek-Shar/lists/dashboard" , "_blank")
+    const Navigate_Recipe_Demo = () => {
+        window.open("https://recipe-tales.vercel.app" , "_blank")
     }
-
     
+    const Navigate_Recipe_Tales_Code = () => {
+        window.open("https://github.com/Prateek-Shar/Recipe-Tales" , "_blank")
+    }
 
 
     const [moreBt1 , setMoreBt1] = useState(true)
@@ -299,7 +305,7 @@ const Project_box = () => {
 
                 <div className="w-full flex justify-center xl:mt-10 ml:mt-5 mm:mt-5">
                     <div className="xl:w-[55%] justify-around border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl rounded-[10px] flex ml:w-[70%] mm:w-[70%] ml:mb-2 ml:mt-2 mm:mt-2 mm:mb-2 hover:cursor-pointer p-2">
-                        <button className="w-[35%] flex justify-center items-center" onClick={Navigate_Dashboard_Demo}>
+                        <button className="w-[35%] flex justify-center items-center" onClick={Navigate_Recipe_Demo}>
                             <img src={demo} className="object-contain w-[26%]" />
                             <p className="font-Poppins xl:text-[12px] ml:text-[11px] mm:text-[9px] pl-3 hover:to-default">Live</p>
                         </button>
@@ -308,7 +314,7 @@ const Project_box = () => {
                             <hr className="w-[20%] border-0 bg-[#0c1931] h-full rounded-full" />
                         </div>
 
-                        <button className="w-[55%] flex justify-center items-center" onClick={Navigate_Dashboard_code}>
+                        <button className="w-[55%] flex justify-center items-center" onClick={Navigate_Recipe_Tales_Code}>
                             <p className="font-Poppins xl:text-[12px] ml:text-[11px] mm:text-[9px] pr-2 hover:to-default">Source Code</p>
                             <img src={github} className="object-contain w-[18%]" />
                         </button>
