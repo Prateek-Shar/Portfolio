@@ -24,8 +24,7 @@ const Links_text:React.FC<Switch> = ( {SwitchToAbout , SwitchToContact , SwitchT
     const handleClickToOptions = () => {
         setOptionDiv(true)
 
-        setMenuDiv(false)
-
+        setMenuDiv(false)   
         setCloseMenuDiv(true)
 
         if(Linkref.current) {
@@ -67,44 +66,44 @@ const Links_text:React.FC<Switch> = ( {SwitchToAbout , SwitchToContact , SwitchT
     return (
     
     <>
-        <div className="xl:w-full xl:flex xl:justify-evenly ml:hidden mm:hidden 2xl:flex 2xl:w-[80%]">
+        <div className="xl:w-full xl:flex xl:justify-evenly ml:hidden mm:hidden 2xl:flex">
 
             {/* About Div */}
-            <div className="2xl:w-[24%] 2xl:flex 2xl:flex-col hover:cursor-pointer" onClick={SwitchToAbout} >
-                <div className="2xl:w-full 2xl:flex">
-                    <div className="2xl:w-[30%]">
-                        <img src={about} className="2xl:object-contain 2xl:w-[90%] 2xl:p-[6px]"/>
+            <div className="2xl:w-[21%] xl:w-[22%] xl:flex xl:flex-col hover:cursor-pointer lm:w-[24%]`" onClick={SwitchToAbout} >
+                <div className="xl:w-full xl:flex">
+                    <div className="xl:w-[30%]">
+                        <img src={about} className="xl:object-contain xl:w-[90%] xl:p-[6px]"/>
                     </div>
 
-                    <div className="2xl:w-[70%] 2xl:flex 2xl:items-center hover:to-default">
-                        <p className="font-Poppins 2xl:text-[18px] 2xl:pl-1 text-[#0c1931] hover:to-default">About</p>
+                    <div className="xl:w-[70%] xl:flex xl:items-center hover:to-default">
+                        <p className="font-Poppins xl:text-[18px] xl:pl-1 text-[#0c1931] hover:to-default">About</p>
                     </div>
                 </div>
             </div>
 
 
             {/* Project Div */}
-            <div className="2xl:w-[23%] 2xl:flex 2xl:flex-col hover:cursor-pointer" onClick={SwitchToProject} >
-                <div className="2xl:w-full 2xl:flex">
-                    <div className="2xl:w-[30%] 2xl:flex 2xl:justify-center">
-                        <img src={projects} className="2xl:object-contain 2xl:w-full 2xl:p-0"/>
+            <div className="2xl:w-[21%] xl:w-[23%] xl:flex xl:flex-col hover:cursor-pointer" onClick={SwitchToProject} >
+                <div className="xl:w-full xl:flex">
+                    <div className="xl:w-[30%] xl:flex xl:justify-center">
+                        <img src={projects} className="xl:object-contain xl:w-full xl:p-0"/>
                     </div>
 
-                    <div className="2xl:w-[70%] 2xl:flex 2xl:items-center hover:cursor-pointer">
-                        <p className="font-Poppins text-[17px] 2xl:pl-1 text-[#0c1931 hover:to-default">Projects</p>
+                    <div className="xl:w-[70%] xl:flex xl:items-center hover:cursor-pointer">
+                        <p className="font-Poppins text-[17px] xl:pl-1 text-[#0c1931 hover:to-default">Projects</p>
                     </div>
                 </div>  
             </div>
 
 
             {/* Contact Div */}
-            <div className="2xl:w-[24%] 2xl:flex 2xl:flex-col hover:cursor-pointer" onClick={SwitchToContact} >
-                <div className="2xl:w-full 2xl:flex">
+            <div className="2xl:w-[21%] xl:w-[24%] xl:flex xl:flex-col hover:cursor-pointer" onClick={SwitchToContact} >
+                <div className="xl:w-full xl:flex">
                     <div className="w-[30%]">
-                        <img src={contact} className="2xl:object-contain 2xl:w-[90%] 2xl:p-[6px]"/>
+                        <img src={contact} className="xl:object-contain xl:w-[90%] xl:p-[6px]"/>
                     </div>
 
-                    <div className="2xl:w-[70%] 2xl:flex 2xl:items-center hover:cursor-pointer">
+                    <div className="xl:w-[70%] xl:flex xl:items-center hover:cursor-pointer">
                         <p className="font-Poppins text-[16px] hover:to-default">Contact</p>
                     </div>
                 </div>

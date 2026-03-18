@@ -23,7 +23,7 @@
     --font-Mogra : Mogra;
 
     --breakpoint-ml: 393px; /* Iphone */
-    --breakpoint-mm: 375px;
+    --breakpoint-mm: 375px; /* Normal Phone */
 
     --text-headingColor: #0c1931;
     --text-paraColor: #282c31
