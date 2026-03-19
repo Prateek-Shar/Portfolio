@@ -63,14 +63,14 @@ const Banner = () => {
                 </div>
             </div>
 
-            <div className="2xl:w-[57%] xl:w-[75%] xl:flex xl:flex-row-reverse xl:ml-0 xl:justify-normal mt-10 ml:w-[90%] ml:flex ml:justify-center mm:flex mm:justify-center ml:ml-3">
-                <div className="2xl:w-[56%] xl:w-[65%] ml:w-[80%] mm:w-[78%]">
+            <div className="2xl:w-[57%] 2xl:ml-30 xl:w-[75%] xl:flex xl:flex-row-reverse xl:ml-0 xl:justify-normal mt-10 ml:w-[90%] ml:flex ml:justify-center mm:flex mm:justify-center ml:ml-3">
+                <div className="2xl:w-[70%]  xl:w-[65%] ml:w-[80%] mm:w-[78%]">
                     <p className="font-Mogra xl:text-[20px] p-2 text-[#50504e] ml:text-[16px] xl:pl-1">I sketch ideas, code dreams, and create digital magic✨</p>
                 </div>
             </div>
 
-            <div className="2xl:w-[55%] xl:w-[74%] xl:flex xl:flex-row-reverse xl:justify-normal ml:w-[90%] ml:flex ml:justify-center mm:flex mm:justify-center ml:ml-3 xl:ml-0">
-                <div className="2xl:w-[55%] xl:w-[65%] ml:w-[80%] mm:w-[78%]">
+            <div className="2xl:w-[55%] 2xl:ml-31 2xl:mt-3 xl:w-[74%] xl:flex xl:flex-row-reverse xl:justify-normal ml:w-[90%] ml:flex ml:justify-center mm:flex mm:justify-center ml:ml-3 xl:ml-0">
+                <div className="2xl:w-[70%] xl:w-[65%] ml:w-[80%] mm:w-[78%]">
                     <p className="font-Mogra text-[16px] p-2 text-[#50504e] ml:text-[16px]">Passionate about turning napkin sketches into beautiful, functional web experiences. Let's build something awesome together!</p>
                 </div>
             </div>
@@ -90,7 +90,7 @@ const Banner = () => {
             </div>
 
 
-            <div className="w-full ml:hidden xl:flex xl:mt-17 mm:hidden 2xl:hidden" />
+            <div className="w-full ml:hidden xl:flex xl:mt-17 mm:hidden 2xl:flex" />
 
             <div className="2xl:w-[40%] xl:w-[41%] xl:mt-2 2xl:mt-32 xl:ml-6 items-center flex-row-reverse xl:justify-normal ml:animate-explore mm:max-ll::animate-bounce ml:flex xl:flex xl:mb-5 ml:w-[65%] ml:justify-center ml:items-center ml:mt-15 ml:mb-5 mm:w-[80%] mm:flex mm:justify-center mm:mt-5 mm:mb-2 ml:ml-4">
                 <div className="xl:w-[40%] flex ml:w-[70%] mm:w-[70%]">
