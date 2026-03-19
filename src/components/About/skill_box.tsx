@@ -7,7 +7,7 @@ const Skill_box = () => {
     return (
         <div className="w-full flex justify-center items-center">
 
-            <div className="xl:w-[80%] 2xl:w-[60%] xl:flex xl:flex-row xl:justify-evenly mt-10 mb-40 ml:flex ml:flex-col ml:w-[90%] ml:items-center mm:flex mm:flex-col mm:w-[90%] mm:items-center">
+            <div className="xl:w-[60%] bg-amber-400 2xl:w-[70%] xl:flex xl:flex-row xl:justify-evenly mt-10 mb-40 ml:flex ml:flex-col ml:w-[90%] ml:items-center mm:flex mm:flex-col mm:w-[90%] mm:items-center">
 
                 <div className="xl:w-[30%] xl:mt-2 xl:mb-2 bg-[#e0e5eb] shadow-2xl rounded-4xl ml:w-full mm:w-full">
                     <div className="w-full flex justify-center xl:mt-6 xl:mb-2 ml:mt-4 ml:mb-4 mm:mt-4 mm:mb-4" >

@@ -14,7 +14,7 @@ const Project_head = () => {
 
             <div className="w-full flex justify-center">
                 <div className="xl:w-[45%] flex ml:w-full mm:w-full justify-center mt-2">
-                    <div className="xl:w-[70%] flex justify-center items-center mm:w-[90%]">
+                    <div className="xl:w-[70%] 2xl:w-[90%] flex justify-center items-center mm:w-[90%]">
                         <p className="font-Poppins xl:text-3xl font-bold p-2 ml:text-[22px] mm:text-[22px] 2xl:text-[40px] text-[#0c1931]">My Project Playground</p>
                     </div>
 

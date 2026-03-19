@@ -73,7 +73,7 @@ const MainPage = () => {
                     <Links_text  SwitchToAbout={ScrollToAbout}  SwitchToContact={ScrollToContact} SwitchToProject={ScrollToProject} />
                 </div>
 
-                <div className="ml:w-[25%] mm:w-[27%] flex items-center justify-center xl:w-[10%]">
+                <div className="ml:w-[25%] mm:w-[27%] flex items-center justify-center xl:w-[10%] 2xl:w-[12%]">
                     <Resume_Button />
                 </div>
             </div>
@@ -155,7 +155,7 @@ const MainPage = () => {
                     <img src={confetti} className="p-1"/>
                 </div>
 
-                <div className="xl:w-[75%] 2xl:w-[60%] flex flex-col bg-[#e0e4eb] mb-20 mt-50 border-2 border-[#e5e7eb] rounded-[12px] mm:w-[90%]">
+                <div className="xl:w-[75%] 2xl:w-[65%] flex flex-col bg-[#e0e4eb] mb-20 mt-50 border-2 border-[#e5e7eb] rounded-[12px] mm:w-[90%]">
                     <div className="w-full">
                         <Contact_head />
                     </div>

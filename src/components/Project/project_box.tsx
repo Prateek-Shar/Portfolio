@@ -110,7 +110,7 @@ const Project_box = () => {
         <div className="2xl:w-[80%] xl:w-[80%] xl:flex xl:flex-row xl:justify-between ml:flex-col ml:w-full ml:items-center ml:justify-center ml:flex mm:w-full mm:flex mm:flex-col mm:justify-center mm:items-center">
             
             {/* Project 1 */}
-            <div className="xl:w-[28%] shadow-md rounded-3xl bg-[#e0e4eb] mt-4 mb-4 ml:w-[85%] mm:w-[85%] 2xl:mt-10 relative hover:shadow-md hover:shadow-gray-500" onMouseEnter={handleClickToAnimateBox2} onMouseLeave={disableAnimateBox2}>
+            <div className="xl:w-[28%] 2xl:w-[30%] shadow-md rounded-3xl bg-[#e0e4eb] mt-4 mb-4 ml:w-[85%] mm:w-[85%] 2xl:mt-10 relative hover:shadow-md hover:shadow-gray-500" onMouseEnter={handleClickToAnimateBox2} onMouseLeave={disableAnimateBox2}>
                 
                 {dashboardIcon && (
                     <div className="w-[7%] absolute right-3 top-3 animate-expense">
@@ -220,7 +220,7 @@ const Project_box = () => {
 
                 <div className="w-full flex justify-evenly xl:mt-13 ml:mt-5 mm:mt-5">
 
-                    <div className="2xl:w-[55%] xl:w-[70%] justify-around border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl rounded-[10px] flex ml:w-[70%] mm:w-[70%] ml:mb-2 ml:mt-2 mm:mt-2 mm:mb-2 hover:cursor-pointer p-2">
+                    <div className="2xl:w-[60%] xl:w-[70%] justify-around border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl rounded-[10px] flex ml:w-[70%] mm:w-[70%] ml:mb-2 ml:mt-2 mm:mt-2 mm:mb-2 hover:cursor-pointer p-2">
                         <button className="w-[35%] flex justify-center items-center" onClick={Navigate_Dashboard_Demo}>
                             <img src={demo} className="object-contain w-[26%]" />
                             <p className="font-Poppins xl:text-[12px] ml:text-[11px] mm:text-[9px] pl-3 hover:to-default">Live</p>
@@ -239,7 +239,7 @@ const Project_box = () => {
                 </div>
 
                 <div className="w-full flex justify-center items-center mt-2 mb-2">
-                    <div className="2xl:w-[50%] xl:w-[70%] mm:w-[60%] flex mm:ml-8 ml:ml-12 xl:ml-18 2xl:ml-15">
+                    <div className="2xl:w-[55%] xl:w-[70%] mm:w-[60%] flex mm:ml-8 ml:ml-12 xl:ml-18 2xl:ml-15">
                         <div className="2xl:w-[2.5%] xl:w-[2.5%] mm:w-[3%] ml:w-[2.5%] flex justify-center items-center animate-pulse">
                             <div className="w-full h-[6px] bg-red-600 rounded-full" />
                         </div>
@@ -254,7 +254,7 @@ const Project_box = () => {
 
 
             {/* Project 2 */}
-            <div className=" bg-[#e0e4eb] relative xl:w-[28%] shadow-md rounded-3xl mt-4 mb-4 ml:w-[85%] mm:w-[85%] 2xl:mt-10 hover:shadow-md hover:shadow-gray-500" onMouseEnter={handleClickToAnimateBox1} onMouseLeave={disableAnimateBox1}>
+            <div className=" bg-[#e0e4eb] relative xl:w-[28%] 2xl:w-[30%] shadow-md rounded-3xl mt-4 mb-4 ml:w-[85%] mm:w-[85%] 2xl:mt-10 hover:shadow-md hover:shadow-gray-500" onMouseEnter={handleClickToAnimateBox1} onMouseLeave={disableAnimateBox1}>
 
                 {expenseIcon && (
                     <div className="w-[7%] absolute right-3 top-3 animate-expense">
@@ -304,7 +304,7 @@ const Project_box = () => {
 
 
                 <div className="w-full flex justify-center xl:mt-10 ml:mt-5 mm:mt-5">
-                    <div className="2xl:w-[55%] xl:w-[75%] justify-around border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl rounded-[10px] flex ml:w-[70%] mm:w-[70%] ml:mb-2 ml:mt-2 mm:mt-2 mm:mb-2 hover:cursor-pointer p-2">
+                    <div className="2xl:w-[60%] xl:w-[75%] justify-around border-2 border-[#e5e7eb] bg-[#e9ecef] shadow-2xl rounded-[10px] flex ml:w-[70%] mm:w-[70%] ml:mb-2 ml:mt-2 mm:mt-2 mm:mb-2 hover:cursor-pointer p-2">
                         <button className="w-[35%] flex justify-center items-center" onClick={Navigate_Recipe_Demo}>
                             <img src={demo} className="object-contain w-[26%]" />
                             <p className="font-Poppins xl:text-[12px] ml:text-[11px] mm:text-[9px] pl-3 hover:to-default">Live</p>
@@ -324,7 +324,7 @@ const Project_box = () => {
 
 
                 <div className="w-full flex justify-center items-center my-2">
-                    <div className="2xl:w-[50%] xl:w-[70%] flex xl:ml-20 mm:w-[60%] mm:ml-8 ml:ml-12 2xl:ml-15">
+                    <div className="2xl:w-[55%] xl:w-[70%] flex xl:ml-20 mm:w-[60%] mm:ml-8 ml:ml-12 2xl:ml-15">
                         <div className="xl:w-[2.5%] 2xl:w-[3%] mm:w-[3%] ml:w-[2.5%] flex justify-center items-center animate-pulse">
                             <div className="w-full h-[6px] bg-red-600 rounded-full" />
                         </div>
@@ -341,7 +341,7 @@ const Project_box = () => {
 
 
             {/* Project 3 */}
-            <div className="xl:w-[28%] bg-[#e0e4eb] shadow-md rounded-3xl mt-4 mb-4 ml:w-[85%] mm:w-[85%] 2xl:mt-10 relative hover:shadow-md hover:shadow-gray-500" onMouseEnter={handleClickToAnimateBox3} onMouseLeave={disableAnimateBox3}>
+            <div className="xl:w-[28%] 2xl:w[30%] bg-[#e0e4eb] shadow-md rounded-3xl mt-4 mb-4 ml:w-[85%] mm:w-[85%] 2xl:mt-10 relative hover:shadow-md hover:shadow-gray-500" onMouseEnter={handleClickToAnimateBox3} onMouseLeave={disableAnimateBox3}>
 
                 {spaceGameIcon && (
                     <div className="w-[7%] absolute right-3 top-3 animate-expense">
@@ -381,7 +381,7 @@ const Project_box = () => {
                 <div className="w-full flex-col">
                     <div className="w-full flex justify-evenly xl:mt-9 2xl:mt-7">
 
-                        <div className="2xl:w-[20%] xl:w-[25%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 xl:p-2 2xl:p-0 rounded-4xl mm:w-[20%]">
+                        <div className="2xl:w-[22%] xl:w-[25%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 xl:p-2 2xl:p-0 rounded-4xl mm:w-[20%]">
                             <div className="w-[60%] flex justify-center items-center">
                                 <p className="font-Poppins xl:text-[14px] ml:text-[11px] mm:text-[11px] 2xl:text-[16px]">C#</p>
                             </div>
@@ -391,7 +391,7 @@ const Project_box = () => {
                             </div>
                         </div>
 
-                        <div className="xl:w-[45%] 2xl:w-[35%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 xl:p-1 2xl:p-0 rounded-4xl mm:w-[45%]">
+                        <div className="xl:w-[45%] 2xl:w-[45%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 xl:p-1 2xl:p-2 rounded-4xl mm:w-[45%]">
                             <div className="w-[75%] flex justify-center items-center">
                                 <p className="font-Poppins xl:text-[14px] ml:text-[12px] mm:text-[12px] 2xl:text-[15px]">Unity Engine</p>
                             </div>
@@ -421,7 +421,7 @@ const Project_box = () => {
                 </div>
 
                 <div className="w-full flex justify-center items-center my-2">
-                    <div className="2xl:w-[40%] xl:w-[36%] mm:w-[60%] flex mm:ml-20 ml:ml-28 xl:ml-1 2xl:ml-17">
+                    <div className="2xl:w-[40%] xl:w-[36%] mm:w-[60%] flex mm:ml-20 ml:ml-28 xl:ml-1 2xl:ml-10">
                         <div className="ml:w-[2.5%] mm:w-[2.5%] 2xl:w-[3%] xl:w-[5%] flex justify-center items-center animate-pulse">
                             <div className="w-full h-[5px] bg-red-600 rounded-full" />
                         </div>
