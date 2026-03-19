@@ -19,7 +19,7 @@ import js from "/Images/js.png"
 const Skill_showcase = () => {
     
     return (
-        <div className="xl:w-[70%] 2xl:w-[70%] xl:flex xl:flex-col mb-20 bg-[#e0e4eb] shadow-2xl rounded-4xl ml:flex ml:flex-col ml:w-[90%] mm:w-[90%]">
+        <div className="2xl:max-ll:w-[65%] xl:w-[70%] 2xl:w-[70%] xl:flex xl:flex-col mb-20 bg-[#e0e4eb] shadow-2xl rounded-4xl ml:flex ml:flex-col ml:w-[90%] mm:w-[90%]">
             
             <div className="w-full flex justify-center xl:mt-2 ml:mt-0">
                 <div className="xl:w-[60%] flex justify-center items-center p-4 ml:w-full mm:w-full">

@@ -16,7 +16,7 @@ const About = () => {
                 </div>
 
                 <div className="w-full flex justify-center">
-                    <div className="xl:w-[28%] 2xl:w-[30%] flex items-center ml:w-[70%] mm:w-[70%]">
+                    <div className="2xl:max-ll:w-[24%] xl:w-[28%] 2xl:w-[30%] flex items-center ml:w-[70%] mm:w-[70%]">
                         <div className="xl:w-[80%] ml:flex ml:justify-center ml:w-[90%] mm:w-[90%]">
                             <p className="xl:text-3xl text-[#0c1931] font-Poppins font-bold  ml:p-1 ml:text-2xl mm:text-2xl 2xl:text-4xl">About This Human</p>
                         </div>

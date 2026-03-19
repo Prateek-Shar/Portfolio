@@ -155,7 +155,7 @@ const MainPage = () => {
                     <img src={confetti} className="p-1"/>
                 </div>
 
-                <div className="xl:w-[75%] 2xl:w-[72%] flex flex-col bg-[#e0e4eb] mb-20 mt-50 border-2 border-[#e5e7eb] rounded-[12px] mm:w-[90%]">
+                <div className="2xl:max-ll:w-[65%] xl:w-[75%] 2xl:w-[72%] flex flex-col bg-[#e0e4eb] mb-20 mt-50 border-2 border-[#e5e7eb] rounded-[12px] mm:w-[90%]">
                     <div className="w-full">
                         <Contact_head />
                     </div>
