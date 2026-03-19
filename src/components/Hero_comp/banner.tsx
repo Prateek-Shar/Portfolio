@@ -37,8 +37,8 @@ const Banner = () => {
                 </div>
             </div>
 
-            <div className="xl:w-[40%] xl:flex xl:items-center xl:flex-row-reverse xl:ml-85 mt-10 ml:w-[90%] ml:ml-0 ml:flex ml:flex-row-reverse mm:flex mm:justify-center ">
-                <div className="2xl:w-[70%]  xl:w-full ml:w-[72%] mm:w-[80%] flex ml:flex ml:justify-center ml:items-center xl:mr-6 2xl:mr-0">
+            <div className="xl:w-[40%] xl:flex xl:items-center xl:flex-row-reverse xl:ml-85 2xl:ml-81 mt-10 ml:w-[90%] ml:ml-0 ml:flex ml:flex-row-reverse mm:flex mm:justify-center ">
+                <div className="2xl:w-[90%] xl:w-full ml:w-[72%] mm:w-[80%] flex ml:flex ml:justify-center ml:items-center xl:mr-6 2xl:mr-0">
                     <div className="xl:w-[30%] flex justify-center ml:items-center ml:w-[24%]">
                         <p className="font-Mogra p-2 ml:p-0.5 mm:p-0.5 mm:text-[25px] xl:text-5xl mm:pl-2 text-[#2c2626] ml:text-[25px]">Hey ,</p>
                     </div>
@@ -54,8 +54,8 @@ const Banner = () => {
                 </div>
             </div> 
 
-            <div className="xl:w-[40%] xl:ml-65 flex flex-row-reverse ml:w-[55%] mm:w-[80%] mm:flex mm:flex-row mm:justify-center ml:ml-9 xl:mt-4">
-                <div className="2xl:w-[40%] xl:w-[55%] relative xl:mr-10 ml:w-[82%] ml::mr-0 mm:w-[70%]">
+            <div className="xl:w-[40%] xl:ml-65 2xl:ml-60 flex flex-row-reverse ml:w-[55%] mm:w-[80%] mm:flex mm:flex-row mm:justify-center ml:ml-9 xl:mt-4">
+                <div className="2xl:w-[47%] xl:w-[55%] relative xl:mr-10 ml:w-[82%] ml::mr-0 mm:w-[70%]">
                     <div className="w-[90%] border-2 xl:p-6.5 border-blue-700 my-2 ml:p-4.5 mm:p-5" />
                     <div className="w-[90%] border p-2 absolute left-1.5 top-3.5 border-blue-400 -rotate-1 ml:top-3.5 xl:flex xl:items-center" >
                          <p className="font-Poet xl:text-[24px] text-[#2c2626] ml:text-[14px]">Full Stack Developer</p>
@@ -90,9 +90,9 @@ const Banner = () => {
             </div>
 
 
-            <div className="w-full ml:hidden xl:flex xl:mt-17 mm:hidden 2xl:flex 2xl:mt-38" />
+            <div className="w-full ml:hidden xl:flex xl:mt-17 mm:hidden 2xl:hidden" />
 
-            <div className="2xl:w-[40%] xl:w-[41%] xl:mt-2 xl:ml-6 items-center flex-row-reverse xl:justify-normal ml:animate-explore mm:max-ll::animate-bounce ml:flex xl:flex xl:mb-5 ml:w-[65%] ml:justify-center ml:items-center ml:mt-15 ml:mb-5 mm:w-[80%] mm:flex mm:justify-center mm:mt-5 mm:mb-2 ml:ml-4">
+            <div className="2xl:w-[40%] xl:w-[41%] xl:mt-2 2xl:mt-32 xl:ml-6 items-center flex-row-reverse xl:justify-normal ml:animate-explore mm:max-ll::animate-bounce ml:flex xl:flex xl:mb-5 ml:w-[65%] ml:justify-center ml:items-center ml:mt-15 ml:mb-5 mm:w-[80%] mm:flex mm:justify-center mm:mt-5 mm:mb-2 ml:ml-4">
                 <div className="xl:w-[40%] flex ml:w-[70%] mm:w-[70%]">
                     <div className="p-2 flex items-center mm:pl-0">
                         <p className="font-Poet text-[#737373] text-[13px] mm:text-[12px]">Scroll For More Content</p>

@@ -17,7 +17,7 @@ const Right_side_contact = () => {
         </div>
 
         <div className="w-full flex justify-center xl:mt-0 mm:mt-2">
-            <div className="2xl:w-[60%] xl:w-[65%] flex mm:w-[90%] ml:w-[90%] justify-center">
+            <div className="2xl:w-[65%] xl:w-[65%] flex mm:w-[90%] ml:w-[90%] justify-center">
                 <div className="xl:w-[90%] mm:w-[78%] ml:w-[78%] flex items-center justify-center ml:flex ml:justify-center ml:items-center">
                     <p className="font-Poet text-[#0c1931] mm:text-[21px] ml:text-[24px] xl:text-[28px] p-2">Send Me Some Magic !</p>
                 </div>

@@ -17,13 +17,9 @@ const Left_side_contact = () => {
                     <img src={message} className=" p-2" />
                 </div>
 
-                <div className="w-[70%] flex items-center">
+                <div className="ml:w-[75%] 2xl:w-[75%] flex items-center">
                     <p className="font-Poet xl:text-[24px] text-[30px] pl-1 text-[#0c1931]">Let's start something epic</p>
                 </div>
-
-                {/* <div className="w-[10%] ml-12">
-                    <img src={bullseye} className=" p-2"/>
-                </div> */}
             </div>
 
             

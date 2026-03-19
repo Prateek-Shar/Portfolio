@@ -25,6 +25,8 @@
     --breakpoint-ml: 393px; /* Iphone */
     --breakpoint-mm: 375px; /* Normal Phone */
 
+    --breakpoint--ll: 1920px; /* Big Laoptops */
+
     --text-headingColor: #0c1931;
     --text-paraColor: #282c31
 }
