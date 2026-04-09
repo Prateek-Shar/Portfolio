@@ -122,7 +122,7 @@ const Project_box = () => {
                     <p className="2xl:text-5xl xl:text-4xl font-Poet text-[#0c1931] mm:text-3xl">01</p>
                 </div>
 
-                <div className="w-full flex justify-center items-center 2xl:mt-20 xl:mt-15">
+                <div className="w-full flex justify-center items-center 2xl:mt-20 xl:mt-15 mm:mt-18">
                     <img src={dashboard}  className=" object-contain w-[52%] rounded-[5px]"/>
                 </div>
 
@@ -379,7 +379,7 @@ const Project_box = () => {
                 </div>
 
                 <div className="w-full flex-col">
-                    <div className="w-full flex justify-evenly xl:mt-9 2xl:mt-7">
+                    <div className="w-full flex justify-evenly xl:mt-9 2xl:mt-7 mm:mt-10">
 
                         <div className="2xl:w-[22%] xl:w-[25%] flex bg-[#e9ecef] shadow-2xs mt-2 mb-2 xl:p-2 2xl:p-0 rounded-4xl mm:w-[20%]">
                             <div className="w-[60%] flex justify-center items-center">
@@ -387,7 +387,7 @@ const Project_box = () => {
                             </div>
 
                             <div className="w-[40%] flex justify-center items-center">
-                                <img src={CSharp} className="2xl:p-1.5 xl:p-1"/>
+                                <img src={CSharp} className="2xl:p-1.5 xl:p-1 ml:p-1 mm:p-1"/>
                             </div>
                         </div>
 

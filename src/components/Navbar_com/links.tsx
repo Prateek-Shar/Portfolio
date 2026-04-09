@@ -132,13 +132,13 @@ const Links_text:React.FC<Switch> = ( {SwitchToAbout , SwitchToContact , SwitchT
             {optionDiv && (
             <div className="w-full absolute flex-col top-9 z-50 button-gradient rounded-b-[10px]">
                 <div className="w-full p-1 flex justify-center">
-                    <p className="font-Poppins text-[14px] p-1" onClick={()=>{  closeIcon() , SwitchToAbout() }}>About</p>
+                    <p className="font-Poppins text-[12px] text-[#50504e] p-1" onClick={()=>{  closeIcon() , SwitchToAbout() }}>About</p>
                 </div>
                 <div className="w-full p-1 flex justify-center">
-                    <p className="font-Poppins text-[14px] p-1" onClick={() => { closeIcon() , SwitchToProject() }}>Project</p>
+                    <p className="font-Poppins text-[12px] p-1 text-[#50504e]" onClick={() => { closeIcon() , SwitchToProject() }}>Project</p>
                 </div>
                 <div className="w-full flex justify-center">
-                    <p className="font-Poppins text-[14px] pt-2 pb-2" onClick={()=> { closeIcon() , SwitchToContact() }}>Contact</p>
+                    <p className="font-Poppins text-[12px] pt-2 pb-2 text-[#50504e]" onClick={()=> { closeIcon() , SwitchToContact() }}>Contact</p>
                 </div>
             </div>
             )}  

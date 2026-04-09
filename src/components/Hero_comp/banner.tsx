@@ -75,7 +75,7 @@ const Banner = () => {
                 </div>
             </div>
 
-            <div className="2xl:max-ll:flex 2xl:max-ll:ml-3 2xl:w-[35.5%] xl:w-[37%] xl:hidden xl:flex-row-reverse xl:justify-normal mt-22 xl:mt-20 ml:w-[50%] ml:hidden ml:justify-center ml:items-center mm:w-[60%] mm:flex mm:justify-center mm:mt-15">
+            <div className="2xl:max-ll:flex 2xl:max-ll:ml-3 2xl:w-[35.5%] xl:w-[37%] xl:hidden xl:flex-row-reverse xl:justify-normal mt-22 xl:mt-20 ml:w-[50%] ml:hidden mm:hidden ml:justify-center ml:items-center mm:w-[60%] mm:justify-center mm:mt-15">
                 <div className="xl:w-[30%] relative ml:w-[65%] mm:w-[65%]">
                     <div className="bg-blue-500 m-2 mm:p-3.5 xl:p-5.5"/>
                     <div className="w-[90%] p-2 xl:p-2 mm:p-1 bg-white absolute top-0 left-1 border-2 border-blue-500 flex justify-center hover:bg-blue-200">
@@ -90,9 +90,9 @@ const Banner = () => {
             </div>
 
 
-            <div className="w-full ml:hidden xl:flex xl:mt-17 mm:hidden 2xl:flex 2xl:max-ll:hidden" />
+            <div className="w-full ml:hidden mm:flex mm:mt-23 xl:flex xl:mt-17 2xl:flex 2xl:max-ll:hidden" />
 
-            <div className="2xl:max-ll:mt-38 2xl:max-ll:ml-10 2xl:w-[40%] xl:w-[41%] xl:mt-2 2xl:mt-32 xl:ml-6 items-center flex-row-reverse xl:justify-normal ml:animate-explore mm:max-ll::animate-bounce ml:flex xl:flex xl:mb-5 ml:w-[65%] ml:justify-center ml:items-center ml:mt-15 ml:mb-5 mm:w-[80%] mm:flex mm:justify-center mm:mt-5 mm:mb-2 ml:ml-4">
+            <div className="2xl:max-ll:mt-38 2xl:max-ll:ml-10 2xl:w-[40%] xl:w-[41%] xl:mt-2 2xl:mt-32 xl:ml-6 items-center flex-row-reverse xl:justify-normal ml:animate-explore mm:max-ll::animate-bounce ml:flex xl:flex xl:mb-5 ml:w-[65%] ml:justify-center ml:items-center ml:mt-15 ml:mb-5 mm:w-[80%] mm:flex mm:justify-center mm:ml-2 mm:mt-5 mm:mb-2 ml:ml-4">
                 <div className="xl:w-[40%] flex ml:w-[70%] mm:w-[70%]">
                     <div className="p-2 flex items-center mm:pl-0">
                         <p className="font-Poet text-[#737373] text-[13px] mm:text-[12px]">Scroll For More Content</p>
