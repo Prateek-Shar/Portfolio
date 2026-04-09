@@ -69,7 +69,7 @@ const Banner = () => {
                 </div>
             </div>
 
-            <div className="2xl:max-ll:ml-43 2xl:w-[55%] 2xl:ml-31 2xl:mt-3 xl:w-[74%] xl:flex xl:flex-row-reverse xl:justify-normal ml:w-[90%] ml:flex ml:justify-center mm:flex mm:justify-center ml:ml-3 xl:ml-0">
+            <div className="2xl:max-ll:ml-43 2xl:w-[55%] 2xl:ml-31 2xl:mt-3 xl:w-[74%] xl:flex xl:flex-row-reverse xl:justify-normal ml:w-[90%] ml:flex ml:justify-center mm:flex mm:justify-center ml:ml-3 xl:ml-0 ml:mt-7">
                 <div className="2xl:w-[70%] xl:w-[65%] ml:w-[80%] mm:w-[78%]">
                     <p className="font-Mogra text-[16px] p-2 text-[#50504e] ml:text-[16px]">Passionate about turning napkin sketches into beautiful, functional web experiences. Let's build something awesome together!</p>
                 </div>
