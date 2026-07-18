@@ -18,21 +18,28 @@ import ballons from "/Images/balloons.png"
 import More_project_bt from "../components/Project/more_project_bt"
 import rocket_bg from "/Images/rocket_bg.png";
 import Footer_para from "../components/Footer/footer_para";
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import Lenis from 'lenis'
 import Quick_links from "../components/Footer/Quick_links";
 import Social_links from "../components/Footer/Social_links";
 import Intro_text from "../components/Navbar_com/intro";
-
+import sheet from "/Images/sheet.png";
+import react from "/Images/react.png";
+import unity from "/Images/unity.png";
+import { useEffect } from "react";
 
 
 const MainPage = () => {
+
+    const [cheatSheet , setCheatSheet] = useState<boolean>(false)
 
     const aboutRef = useRef<HTMLDivElement>(null)
     const contactRef = useRef<HTMLDivElement>(null)
     const projectRef = useRef<HTMLDivElement>(null)
 
     const navbarRef = useRef<HTMLDivElement>(null)
+    const cheatsheetbt = useRef<HTMLDivElement>(null)
+    const dropdownsheet = useRef<HTMLDivElement>(null)
 
     const ScrollToAbout = () => {
         aboutRef.current?.scrollIntoView( {behavior : "smooth"} )
@@ -61,6 +68,39 @@ const MainPage = () => {
         return;
     })
 
+    const handleClickToCheatSheet = () => {
+
+        setCheatSheet((prev)  => {
+            
+            const next = !prev 
+    
+            if(cheatsheetbt.current) {
+                cheatsheetbt.current.style.borderBottomLeftRadius = next ? "0px" : "8px"
+                cheatsheetbt.current.style.borderBottomRightRadius = next ? "0px" : "8px"
+            }
+
+            return next;
+
+        });
+    }
+
+    useEffect(() => {
+        if (dropdownsheet.current) {
+            dropdownsheet.current.style.borderBottomLeftRadius = "10px";
+            dropdownsheet.current.style.borderBottomRightRadius = "10px";
+            dropdownsheet.current.style.borderTopRightRadius = "10px";
+        }
+    }, [cheatSheet]);
+
+
+    const openReact = () => {
+        window.open("/cheatsheet/React.pdf" , "_blank")
+    }
+
+    const openUnity = () => {
+        window.open("/cheatsheet/Unity_Manual.pdf" , "_blank")
+    }
+
     return (
         <div className="w-full flex flex-col">
 
@@ -76,7 +116,7 @@ const MainPage = () => {
                 <div className="ml:w-[25%] mm:w-[27%] flex items-center justify-center xl:w-[10%] 2xl:w-[12%]">
                     <Resume_Button />
                 </div>
-            </div>
+            </div> 
 
 
             <div className="w-full">
@@ -200,6 +240,35 @@ const MainPage = () => {
 
             </div>
 
+            <div className="w-[5%] xl:flex mm:hidden flex-col fixed bottom-5 right-5 z-50">
+                <div className="w-[50%] bg-white shadow-2xl shadow-purple-400 rounded-lg" ref={cheatsheetbt}>
+                    <img src={sheet} alt="Cheat Sheet" className="p-2 w-12 h-12 object-contain" onClick={handleClickToCheatSheet} />
+                </div>
+
+                {cheatSheet && (
+                    <div className="w-full flex flex-col bg-white shadow-2xl" ref={dropdownsheet}>
+                        <div className="w-full flex mt-1 ml-1" onClick={openReact}>
+                            <div className="w-[25%] flex items-center p-1">
+                                <img src={react} />
+                            </div>
+                            
+                            <div className="flex ml-1 items-center">
+                                <p className="font-Poppins text-[12px]">React</p>
+                            </div>
+                        </div>
+
+                        <div className="w-full flex my-1 ml-1" onClick={openUnity}>
+                            <div className="w-[28%] flex items-center p-0.5">
+                                <img src={unity} />
+                            </div>
+                            
+                            <div className="flex ml-0.5 items-center">
+                                <p className="font-Poppins text-[12px]">Unity</p>
+                            </div>
+                        </div>
+                    </div>
+                )}
+            </div>
 
         </div>
     )
