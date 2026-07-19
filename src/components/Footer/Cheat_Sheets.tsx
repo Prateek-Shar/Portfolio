@@ -1,6 +1,8 @@
 import next from "/Images/next.png"
 import react from "/Images/react.png"
 import unity from "/Images/unity.png";
+import github from "/Images/github.png";
+import mongo from "/Images/mongo.png";
 
 const Cheat_sheet = () => {
 
@@ -14,6 +16,14 @@ const Cheat_sheet = () => {
 
     const openNextJs = () => {
         window.open("/cheatsheet/Next_JS_Manual.pdf" , "_blank")
+    }
+
+    const openGithub = () => {
+        window.open("/cheatsheet/Git_Manual.pdf" , "_blank")
+    }
+
+    const openMongo = () => {
+        window.open("/cheatsheet/Mongo_Manual.pdf" , "_blank")
     }
 
     return (
@@ -35,6 +45,14 @@ const Cheat_sheet = () => {
 
                 <button className="w-[15%] hover:cursor-pointer ml-1" onClick={openUnity}>
                     <img src={unity} />
+                </button>
+
+                <button className="w-[11%] hover:cursor-pointer ml-1" onClick={openGithub}>
+                    <img src={github} />
+                </button>
+
+                <button className="w-[15%] hover:cursor-pointer ml-1" onClick={openMongo}>
+                    <img src={mongo} />
                 </button>
             </div>
 
