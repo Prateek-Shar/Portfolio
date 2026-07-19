@@ -387,6 +387,25 @@ p , span {
     }
 }
 
+@keyframes cheatsheetanim {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-3px);
+    }
+}
+
+@keyframes dropboxanim {
+    0% {
+        max-height: 0px;
+    }
+
+    100% {
+        max-height: 120px;
+    }
+}
 
 
 @utility animate-div {
@@ -460,6 +479,9 @@ p , span {
     border-radius: 8px;
 }
 
+.animated-cheatbt {
+    animation: cheatsheetanim 2s forwards;
+}
 
 
 .skill-gradient {
@@ -473,4 +495,12 @@ p , span {
 
 .text-shadow {
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.drop-box-sheet {
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    animation: dropboxanim 1s ease-in forwards;
 }

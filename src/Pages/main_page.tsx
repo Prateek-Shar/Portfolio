@@ -26,7 +26,7 @@ import Intro_text from "../components/Navbar_com/intro";
 import sheet from "/Images/sheet.png";
 import react from "/Images/react.png";
 import unity from "/Images/unity.png";
-import { useEffect } from "react";
+import next from "/Images/next.png";
 
 
 const MainPage = () => {
@@ -68,7 +68,7 @@ const MainPage = () => {
         return;
     })
 
-    const handleClickToCheatSheet = () => {
+    const handleClickToCheatSheet = () => { 
 
         setCheatSheet((prev)  => {
             
@@ -77,20 +77,13 @@ const MainPage = () => {
             if(cheatsheetbt.current) {
                 cheatsheetbt.current.style.borderBottomLeftRadius = next ? "0px" : "8px"
                 cheatsheetbt.current.style.borderBottomRightRadius = next ? "0px" : "8px"
+                cheatsheetbt.current.classList.toggle("animated-cheatbt" , next)
             }
 
             return next;
 
         });
     }
-
-    useEffect(() => {
-        if (dropdownsheet.current) {
-            dropdownsheet.current.style.borderBottomLeftRadius = "10px";
-            dropdownsheet.current.style.borderBottomRightRadius = "10px";
-            dropdownsheet.current.style.borderTopRightRadius = "10px";
-        }
-    }, [cheatSheet]);
 
 
     const openReact = () => {
@@ -100,6 +93,11 @@ const MainPage = () => {
     const openUnity = () => {
         window.open("/cheatsheet/Unity_Manual.pdf" , "_blank")
     }
+
+    const openNextJs = () => {
+        window.open("/cheatsheet/Next_JS_Manual.pdf" , "_blank")
+    }
+
 
     return (
         <div className="w-full flex flex-col">
@@ -246,7 +244,7 @@ const MainPage = () => {
                 </div>
 
                 {cheatSheet && (
-                    <div className="w-full flex flex-col bg-white shadow-2xl" ref={dropdownsheet}>
+                    <div className="w-full flex flex-col drop-box-sheet bg-white shadow-2xl" ref={dropdownsheet}>
                         <div className="w-full flex mt-1 ml-1" onClick={openReact}>
                             <div className="w-[25%] flex items-center p-1">
                                 <img src={react} />
@@ -264,6 +262,16 @@ const MainPage = () => {
                             
                             <div className="flex ml-0.5 items-center">
                                 <p className="font-Poppins text-[12px]">Unity</p>
+                            </div>
+                        </div>
+
+                        <div className="w-full flex my-1 ml-1" onClick={openNextJs}>
+                            <div className="w-[16%] flex items-center p-0.5 ml-1.5">
+                                <img src={next} />
+                            </div>
+                            
+                            <div className="flex ml-2 items-center">
+                                <p className="font-Poppins text-[12px]">Next JS</p>
                             </div>
                         </div>
                     </div>
