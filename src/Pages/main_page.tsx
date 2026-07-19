@@ -77,7 +77,7 @@ const MainPage = () => {
             if(cheatsheetbt.current) {
                 cheatsheetbt.current.style.borderBottomLeftRadius = next ? "0px" : "8px"
                 cheatsheetbt.current.style.borderBottomRightRadius = next ? "0px" : "8px"
-                cheatsheetbt.current.classList.toggle("animated-cheatbt" , next)
+                // cheatsheetbt.current.classList.toggle("animated-cheatbt" , next)
             }
 
             return next;
