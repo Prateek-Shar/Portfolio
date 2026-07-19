@@ -22,7 +22,7 @@ const Social_links = () => {
         <div className="w-full">
 
             <div className="w-full p-2 ml-1">
-                <p className="font-Poet text-2xl text-[#d9d9d9]">Socials</p>
+                <p className="font-Poet text-2xl text-[#d9d9d9]">Social Links</p>
             </div>
 
             <div className="w-[50%] flex justify-evenly items-center mt-2">

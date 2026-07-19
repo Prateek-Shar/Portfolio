@@ -27,6 +27,7 @@ import sheet from "/Images/sheet.png";
 import react from "/Images/react.png";
 import unity from "/Images/unity.png";
 import next from "/Images/next.png";
+import Cheat_sheet from "../components/Footer/Cheat_Sheets";
 
 
 const MainPage = () => {
@@ -230,12 +231,18 @@ const MainPage = () => {
                         <div className="xl:w-[2px] xl:h-25 bg-[#d9d9d9]" />
                     </div>
 
-                    <div className="xl:w-[25%] ml:w-[90%] ml:mt-12 xl:mt-0 mm:mt-10 mm:w-full">
+                    <div className="xl:hidden ml:w-[90%] ml:mt-12 xl:mt-0 mm:mt-10 mm:w-full">
+                        <Cheat_sheet />
+                    </div>
+
+                    <div className="xl:hidden xl:items-center ml:hidden">
+                        <div className="xl:w-[2px] xl:h-25 bg-[#d9d9d9]" />
+                    </div>
+                    
+                    <div className="xl:w-[25%] ml:w-[90%] xl:mt-0 mm:mt-12 mm:w-full">
                         <Social_links />
                     </div>
                 </div>
-
-
             </div>
 
             <div className="w-[5%] xl:flex mm:hidden flex-col fixed bottom-5 right-5 z-50">
