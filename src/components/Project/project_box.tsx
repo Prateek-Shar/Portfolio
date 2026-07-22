@@ -254,7 +254,7 @@ const Project_box = () => {
 
                 </div>
 
-                <div className="w-full flex justify-center items-center mt-2 mb-2">
+                {/* <div className="w-full flex justify-center items-center mt-2 mb-2">
                     <div className="2xl:w-[55%] xl:w-[70%] mm:w-[60%] flex mm:ml-8 ml:ml-12 xl:ml-18 2xl:ml-15">
                         <div className="2xl:w-[2.5%] xl:w-[2.5%] mm:w-[3%] ml:w-[2.5%] flex justify-center items-center animate-pulse">
                             <div className="w-full h-[6px] bg-red-600 rounded-full" />
@@ -264,7 +264,7 @@ const Project_box = () => {
                             <p className="text-[12px] font-Poppins">Please Open on Laptop</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
@@ -338,8 +338,7 @@ const Project_box = () => {
                 </div>
 
 
-
-                <div className="w-full flex justify-center items-center my-2">
+                {/* <div className="w-full flex justify-center items-center my-2">
                     <div className="2xl:w-[55%] xl:w-[70%] flex xl:ml-20 mm:w-[60%] mm:ml-8 ml:ml-12 2xl:ml-15">
                         <div className="xl:w-[2.5%] 2xl:w-[3%] mm:w-[3%] ml:w-[2.5%] flex justify-center items-center animate-pulse">
                             <div className="w-full h-[6px] bg-red-600 rounded-full" />
@@ -349,7 +348,7 @@ const Project_box = () => {
                             <p className="text-[12px] font-Poppins">Please Open on Laptop</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
             </div>
